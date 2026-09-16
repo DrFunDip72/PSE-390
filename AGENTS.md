@@ -40,4 +40,4 @@ Read the Summary and Key Points first, then verify important claims against the 
 
 These are AI-generated study aids, not certified verbatim records. Proper names, technical terms, quiet speech, overlapping speakers, and quotations may be misheard. Flag uncertainty and use timestamps so a person can verify against any retained source recording.
 
-Do not hand-edit generated lecture files or add audio/video unless the owner explicitly requests it. Never add credentials, private student information, or unpublished Class Scribe data. When an authorized correction is necessary, preserve the original meaning, metadata, date-based path, and Summary-before-Transcript structure.
+The owner has explicitly authorized the automation-managed MP3 assets linked from dated notes as public GitHub Release downloads. Do not hand-edit generated lecture files or add other audio/video manually. Never add credentials, private student information outside the authorized recordings, or unpublished Class Scribe data. When an authorized correction is necessary, preserve the original meaning, metadata, date-based path, and Summary-before-Transcript structure.
