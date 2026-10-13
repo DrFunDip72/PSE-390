@@ -1,0 +1,233 @@
+# Lecture notes
+
+Condensed from the AI transcripts and summaries in [`notes/2026`](../notes/2026). Transcripts garble names and some passages; anything that could not be followed was left out. No recording existed yet for Oct 7 (class cancelled) or Oct 12 (Conflicts of Interest) when this was written. A note can be dated one day before its class.
+
+## Sep 2 · Introduction
+
+Full transcript: [`notes/2026/2026-09-02.md`](../notes/2026/2026-09-02.md)
+
+### Exam
+
+- A midterm will test your knowledge and there will be a study guide. It will be "pretty easy" if you go through the guide and memorize some of the concepts.
+- Multiple choice, in the testing center or on Canvas (not yet decided).
+
+### What he taught
+
+- Definition of an ethical dilemma: a complex situation where you must choose between two or more conflicting moral options, none of which is completely satisfactory. If you know what is right and wrong, it is not a dilemma. "We'll go over that definition many times."
+- Ethics is nuanced and murky, unlike accounting, where you know when you are right.
+- Course skills: identify when you are in a dilemma, navigate it, and help build ethical cultures.
+- Adam Smith: capitalism only works tethered to a moral base. Clayton Christensen: capitalism works because most people keep their promises without enforcement.
+- How you decide now is an indicator of how you will decide later.
+
+### Case
+
+- Expense report: your manager Dana, who has helped you, asks you to code a birthday dinner as a client dinner. "Everyone does this," it is under the meal cap, and finance never checks. Students gave answers from checking with HR to confronting Dana. He noted the twist that real life adds debt, kids, and pressure.
+
+## Sep 8 · Integrity and intuition (class on Sep 9)
+
+Full transcript: [`notes/2026/2026-09-08.md`](../notes/2026/2026-09-08.md)
+
+### Exam
+
+- None.
+
+### What he taught
+
+- Integrity means "complete, undivided, unbroken" (Lee, quoting Kimball): the same person in every setting. Callister: no deception, excuses, rationalization, or coloring of the facts.
+- "You have a right to do it, but that's not the right thing." Example: he could have sued contractors who took half-payment and ghosted, but it might not be the right thing for him.
+- Unethical behavior is costly: distrust adds overhead (lawyers, regulators, verification), and replacing an employee costs roughly half a year's salary.
+- Haidt's elephant and rider: intuition and emotion (the elephant) react first, and reason (the rider) justifies afterward, like a press secretary. It starts small. His own story: he lied so quickly and convincingly about a dish that he and his wife both believed it.
+- Counters: catch your inner lawyer, pause, use mentors or an honest person, and ask "what story did I just tell myself?"
+- Self-awareness is hard ("you can't see what you can't see"), so use coaches and mentors.
+
+### Cases
+
+- Hiring panel: you are the swing vote between Maya (friendly, "known quantity," oversells timelines) and Jordan (quieter, stronger record). No right answer; notice whom you already want to win.
+- Thomas More refused to back the king and died for it. Ted Williams refused a contract he felt he had not earned. Volleyball self-policing. Michigan clock controversy.
+
+## Sep 14 · Defining ethical issues
+
+Full transcript: [`notes/2026/2026-09-14.md`](../notes/2026/2026-09-14.md)
+
+### Exam
+
+- None mentioned. This is the lecture behind the Defining Ethical Issues handout.
+
+### What he taught
+
+- A dilemma is "should you or should you not." "There's no right or wrong in ethical dilemmas, it's trying to choose." Example: a team kneeling at the 3-yard line instead of scoring.
+- Behavior in a population: about 70–80% honest, 15–20% in the "pressure margin" (good people pushed by circumstances), 1–5% true predators.
+- Power corrupts and blinds, and a personal code of ethics is the safeguard. Hire for integrity, intelligence, and energy (Buffett).
+- Values must be lived, not just stated: Enron's stated values were meaningless, and at Amari Global the CEO's real value was "make more money faster." Test: finish the sentence "When it costs us money or a relationship, we still do this."
+- Radical responsibility: own what happens ("this is our company"); do not say "he did it."
+- Recalls: Tylenol 1982 and Toyota 2010 cost a lot but won in the end. Trust in banks and Congress has fallen sharply.
+
+### His example for each of the 13 issue types
+
+- Standing Up to Power: Wells Fargo tellers eventually stood up. His questions: do they have the right to do this, and would others agree with me?
+- Made a Promise and World Has Changed: Boeing 737 Max. Pilots were promised minimal retraining, the world changed, and two crashes followed.
+- Intervention: he equated it with whistleblowing. Example: Susan Fowler at Uber.
+- Conflict of Interest: McKinsey advised both the OxyContin maker and the FDA.
+- Playing Dirty: HP used false identities to get phone records while hunting a board leak.
+- Skirting the Rules: "slightly less bad than playing dirty." Just because you can doesn't mean you should.
+- Loyalty: Boeing employees felt they had to be loyal rather than blow the whistle.
+- Sacrificing Personal Values or Relationships: Google lost credibility with employees.
+- Unfair Advantage: Amazon sees what third-party sellers sell, builds its own, and ranks it first.
+- Repair: J&J declined to recall talc baby powder (contrast: Tylenol).
+- Showing Mercy: a Cisco intruder. Internal reprimand, or turn him in as an example? No conclusion.
+- Suspicions Without Enough Evidence and Dissemblance: the transcript is too garbled to tell what he said (Volkswagen and Theranos came up nearby).
+
+## Sep 16 · The five ethical frameworks
+
+Full transcript: [`notes/2026/2026-09-16.md`](../notes/2026/2026-09-16.md)
+
+### Exam
+
+- "I will be putting down some ethical framework applications on the test," and you have to say "this is utilitarianism, this is deontology, that type of thing."
+
+### Utilitarianism
+
+- Judge by outcomes: the greatest net utility for the greatest number. Spock: "the needs of the many outweigh the needs of the few."
+- Business: lay off 12 so 200 keep their benefits; kill a profitable campaign that increases teen vaping.
+- Ask: what are the total costs and benefits across all stakeholders? Pitfalls: hiding rights violations behind a good total, and who bears the negative externalities.
+
+### Deontology
+
+- Actions are right or wrong by universal rules and duties: do not lie, do not use people as tools, keep your duty even when the outcome would look better.
+- Universal law test: is it OK if everyone does it? Examples: refusing a CFO's request to backdate a disclosure; pinning a mistake on an intern who already quit fails the test.
+- Batman is a deontologist (his no-kill rule), not a utilitarian.
+
+### Social contracts
+
+- Obligations come from implicit mutual agreements between an organization and society. Jurassic Park: Hammond promised safety and cut corners.
+- Business: changing commissions mid-year ("the fight is about the bargain"); using customer data in ways the privacy policy never described.
+- Pitfall: "everyone does it" excusing questionable norms.
+
+### Virtue ethics
+
+- Character and habit, the mean between excess and deficiency (courage is between paralyzing fear and recklessness). "We are what we repeatedly do. Excellence is not an act but a habit."
+- Business: disciplining a star closer who humiliates juniors ("that is not who we are"). Pitfall: good intentions without metrics, and missing systemic flaws.
+
+### Ethics of care
+
+- Relational and context-bound: morality comes from vulnerability and interdependence and from responding to a specific person's needs. He called it virtue ethics plus "seeing people as people."
+- Business: a no-exceptions PTO policy versus an analyst whose father is dying; giving the last slot to the smaller firm that would fail without it.
+
+### Big idea
+
+- The frameworks overlap and blur, and the same case can be read through different ones. Spock (many) and Kirk (one) were both right in context. The skill is recognizing when to switch.
+
+## Sep 21 · The decision steps and the gut check
+
+Full transcript: [`notes/2026/2026-09-21.md`](../notes/2026/2026-09-21.md)
+
+### Exam
+
+- The study guide "is actually helping you study what will be on the test, not like vague lists."
+
+### The steps as he taught them (he said "eight"; the handout has six)
+
+- Gather facts: do not jump to a solution. Verify AI output. Your emotional elephant reacts first.
+- Define the issue: most dilemmas involve more than one. Talk to outsiders or a mentor.
+- Stakeholders: start with those affected and widen the circle, including people not yet born. "Think generationally."
+- Consequences and obligations: weigh probability and severity and long-term over short-term. Every decision sends a signal. Transparency builds trust.
+- Option C: "Don't force an A or B choice." Cummins funded a school instead of prosecuting kids who stole parts.
+- Check your gut: an early warning system, "spidey sense," sometimes "the Spirit." Emotion, then reason, then the gut confirms. "Always buy time."
+
+### Lenses he mentioned
+
+- Disclosure rule: would you be fine reading about it on social media? Jefferson: never harbor a thought you would not avow openly.
+- Social contract: keeping your word, even when a client asks to come back after your offer expired. Fiduciary duty is "a social contract you take on."
+- Virtue: ask what a person of integrity in your community would do.
+
+### Cases
+
+- 500% drug price hike: first reaction was greed, then the facts changed (the drug was nearly discontinued, and the revenue funded a gene-therapy trial). Option C: grants, crowdfunding, or a lower price.
+- Plant closure: told not to disclose, and a friend is about to buy a house. Option C: discourage the purchase without revealing why, and push the company to announce earlier.
+- Customer health score: label the customer "not at risk" (lying) or follow the VP ("just following orders")? Option C: be honest and flag the risk early.
+- Hospital data: keep the promise made to patients, find another way, and change the terms for future clients.
+- Switching companies: trade secrets are protected, general culture is not. Give generalities, not specifics. "Just because you can doesn't mean you should."
+
+## Sep 23 · The toolkit applied (Wired for Hire)
+
+Full transcript: [`notes/2026/2026-09-23.md`](../notes/2026/2026-09-23.md)
+
+### Exam
+
+- "None of this is going to be on the test," said about the toolkit authors and his stories about them. The context suggests the authors, not the toolkit, but it is ambiguous.
+
+### What he taught
+
+- He condensed his eight steps into six. He stressed steps 2, 4, and 5 for effort. In his retelling stakeholders came under step 2; on the handout they are Step 3, so use the handout.
+- He said the issues list has 14 items; the handout has 13.
+- "There is never an issue with only one lens" and it is "never cut and dry." The lenses help weigh which promise or obligation wins.
+
+### Wired for Hire, lens by lens
+
+- You offered a job to Reggie (marginal), then Brian (the one you really want) became available.
+- Utilitarian: hiring Brian probably produces more total good (the security work done right, client trust, Brian employed).
+- Deontology: fidelity to Reggie, who relies on the offer, against duty to clients and the public in a regulated industry. He said deontology "is fighting itself" here.
+- Social contract: keeping your word to hires versus staffing critical work with people who can do it. Virtue: your word, your team, honesty and courage.
+- Option C: go to the VP and argue for keeping both, even with no budget, and "fight for it." Be transparent with the person you let down.
+- Issues named: Made a Promise and the World Has Changed, and Loyalty.
+
+### Flipped case
+
+- You are Reggie and get a dream-job offer after accepting. Arguments to keep your word: social contract and reputation (other students are stakeholders). Arguments to leave: family loyalty. He agreed with the family point. Advice: use transparency so you do not throw peers under the bus.
+
+## Sep 30 · The conformity blind spot
+
+Full transcript: [`notes/2026/2026-09-30.md`](../notes/2026/2026-09-30.md)
+
+### Exam
+
+- None mentioned.
+
+### What he taught
+
+- Good people hand their ethics to the crowd. Asch line experiment: about 75% went along at least once.
+- Groupthink: groups decide more extremely than any member would alone.
+- Descriptive norm ("everyone pads the numbers") versus injunctive norm ("should anyone?"). "The popular tells you what is normal, never what is right."
+- Slippery slope: each shortcut becomes the next baseline, the dissenter is coded as disloyal, then the out-group becomes "fair game."
+- Loyalty is a virtue that creates pressure to conform and "can blind you."
+- His slide of rationalizations "at work": "everyone else does this" (normalcy), "sharing the blame," "competitive necessity" (necessity). The moral side disappears and it "becomes just a business decision."
+- Defenses: define red lines in calm, not in the moment; pause; find one dissenting ally (one ally sharply cuts conformity).
+
+### Cases
+
+- Challenger and Morton Thiokol, KPMG tax shelters, Ford Pinto, Dalkon Shield, Lance Armstrong (each step followed from "you can't win clean"), baseball's steroid era, Everest 1996.
+
+## Oct 5 · Rationalization
+
+Full transcript: [`notes/2026/2026-10-05.md`](../notes/2026/2026-10-05.md)
+
+### Exam (the most important lecture for it)
+
+- Canvas, opens the 14th, no class that day, open a couple extra days.
+- About 32–33 multiple choice plus "a couple" of short-answer questions on how you apply what you learned and your biggest takeaways.
+- "These rationalization ideas will be on the test." A couple of statements, and "you'll have to know which one is which."
+- The goal is for it to help you learn and be "totally doable."
+
+### His 11 rationalizations and examples
+
+- Denial of responsibility: Volkswagen blamed a couple of engineers; the engineers said they were just following orders. "My boss told me to do this." Probably one of the most common.
+- Denial of injury: Shkreli's lawyers argued "no harm, no foul" because investors made money. A good outcome does not erase a dishonest act.
+- Denial of victim: Purdue's Richard Sackler called OxyContin abusers "victimizers."
+- Condemnation of the condemners: Wirecard attacked Financial Times journalists. "You just dig a deeper hole."
+- Appeal to higher loyalty: WorldCom's Scott Sullivan framed the fraud as keeping airline pilots flying home. Altruism is a convenient rationalization.
+- Moral ledger: Lance Armstrong's cancer foundation. Reverse form: "I'm underpaid so fudging my per diem is fine." "Ethics is not a bank account."
+- Defense of necessity: "I had no choice." Often appears under the utilitarian lens. A VW engineer installed the defeat device under pressure from above.
+- Claim of normalcy: "everybody's doing it" (baseball, Armstrong, sweatshop labor). "Not a pass."
+- Denial of negative intent: Facebook said the intent was only to connect people. Intent matters but "doesn't undo the impact."
+- Advantageous comparison: Shkreli (Daraprim from $13.50 to $750) said it was cheap next to $150k-a-year cancer drugs. "At least we're not Madoff."
+- Euphemistic language: VW's "acoustic function"; "workforce optimization," "right-sizing." Words change what people think they are doing.
+
+### Q-Medica activity (likely the template for the test's matching)
+
+- CEO Mark, "my hands are tied, the board gave strict orders": denial of responsibility (necessity was accepted as a second).
+- CEO Mark, "one-in-a-million, nobody will be hurt": denial of injury.
+- Elena, "standard industry practice": claim of normalcy.
+- Sarah, "families lose their livelihoods": appeal to higher loyalty (he said both loyalty and necessity).
+- Mark, "free equipment for rural clinics offsets one minor hit": moral ledger.
+- Tom, "minor calibration variance": euphemistic language.
+- When a statement fits two labels, pick the main one but he accepts both. Necessity is "no choice"; higher loyalty is a noble purpose.

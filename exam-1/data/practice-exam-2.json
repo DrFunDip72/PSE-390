@@ -1,0 +1,574 @@
+{
+  "title": "Practice Exam 2: 33 new questions",
+  "source": "Written for this project from the four handouts and the lectures. Answers and explanations are student-derived.",
+  "questionCount": 33,
+  "schema": "options is {A..D}; answer is an array of correct letters; multiSelect true means \"select all that apply\"; explanation is a student-written rationale; inClass (optional) is what the professor said in lecture that bears on the question; judgment (optional) marks answers that are a call rather than a certainty.",
+  "questions": [
+    {
+      "number": 1,
+      "part": 1,
+      "partName": "Six Steps to Sound Ethical Decision Making",
+      "question": "Before deciding how to respond to a customer complaint about a defective part, a manager pauses to ask what actually happened, who reported it, and what the test data show. Which of the Six Steps is she on?",
+      "options": {
+        "A": "Step 1 — Gather the facts",
+        "B": "Step 2 — Define the ethical issues",
+        "C": "Step 4 — Identify the obligations & consequences",
+        "D": "Step 6 — Check your gut"
+      },
+      "answer": [
+        "A"
+      ],
+      "multiSelect": false,
+      "explanation": "Establishing what actually happened is Step 1. It always comes first, before you name the issue or reach for a lens. In class (Sep 21) he called jumping to a solution before knowing the facts \"often a first mistake.\""
+    },
+    {
+      "number": 2,
+      "part": 1,
+      "partName": "Six Steps to Sound Ethical Decision Making",
+      "question": "Which statement correctly matches a step of the Six Steps with its label?",
+      "options": {
+        "A": "Step 2 — Check your gut",
+        "B": "Step 3 — Identify the affected parties (stakeholders)",
+        "C": "Step 4 — Think creatively about potential actions (Option C)",
+        "D": "Step 6 — Gather the facts"
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "Step 3 is stakeholders. Step 2 is defining the issues, Step 4 is obligations and consequences through the lenses, Step 5 is Option C, and Step 6 is the gut check."
+    },
+    {
+      "number": 3,
+      "part": 1,
+      "partName": "Six Steps to Sound Ethical Decision Making",
+      "question": "A plant manager is told to either lay off 100 people now or hide the problem until next quarter. A colleague suggests negotiating extended supplier payment terms and offering voluntary reduced hours so the layoffs can be avoided. Which step does the colleague's idea represent?",
+      "options": {
+        "A": "Step 3 — Identify stakeholders",
+        "B": "Step 4 — Identify obligations & consequences",
+        "C": "Step 5 — Think creatively (Option C)",
+        "D": "Step 6 — Check your gut"
+      },
+      "answer": [
+        "C"
+      ],
+      "multiSelect": false,
+      "explanation": "Two bad choices framed as the only options, then a third path that serves more people. That is Option C, Step 5. He said in class that \"so many times C is the smarter option.\""
+    },
+    {
+      "number": 4,
+      "part": 1,
+      "partName": "Six Steps to Sound Ethical Decision Making",
+      "question": "Step 4 of the Six Steps is also called \"Lenses.\" Which of these is an example of what you do in Step 4?",
+      "options": {
+        "A": "Make a list of everyone the decision will affect",
+        "B": "Ask \"What if everyone did it?\" about the proposed action",
+        "C": "Brainstorm a third alternative to the two options on the table",
+        "D": "Notice a knot in your stomach about the decision"
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "\"What if everyone did it?\" is a Deontology (universality) question, so it is a lens question and belongs in Step 4. A is Step 3, C is Step 5, and D is Step 6."
+    },
+    {
+      "number": 5,
+      "part": 2,
+      "partName": "Defining Ethical Issues",
+      "question": "A senior partner tells you to remove a negative finding from a client's audit report because the client is a large account. You believe removing it is wrong. Which ethical issue is this?",
+      "options": {
+        "A": "Showing Mercy",
+        "B": "Repair",
+        "C": "Unfair Advantage",
+        "D": "Standing Up to Power"
+      },
+      "answer": [
+        "D"
+      ],
+      "multiSelect": false,
+      "explanation": "Someone with authority over you is asking you to do something you believe is wrong. Handout questions: do they have the right to ask this of me, and are there others who agree with me?"
+    },
+    {
+      "number": 6,
+      "part": 2,
+      "partName": "Defining Ethical Issues",
+      "question": "Six months ago you told a vendor you would renew their contract. Since then, a cheaper vendor with better quality has appeared and your budget has been cut by 20%. Which ethical issue is this?",
+      "options": {
+        "A": "Unfair Advantage",
+        "B": "Made a Promise and the World Has Changed",
+        "C": "Playing Dirty",
+        "D": "Conflict of Interest"
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "You made a commitment, and circumstances changed so that keeping it is now costly. Ask: can I still keep it even at a cost, and does keeping it make other promises harder to keep?"
+    },
+    {
+      "number": 7,
+      "part": 2,
+      "partName": "Defining Ethical Issues",
+      "question": "You overhear two managers planning to shred documents before an audit. You have to decide whether and how to step in, and whether to bring in your HR partner for help. Which ethical issue is this?",
+      "options": {
+        "A": "Suspicions Without Enough Evidence",
+        "B": "Loyalty",
+        "C": "Intervention",
+        "D": "Showing Mercy"
+      },
+      "answer": [
+        "C"
+      ],
+      "multiSelect": false,
+      "explanation": "You know about wrongdoing and have to decide whether and how to step in despite the risk to yourself. The handout asks if you are the right person or should recruit help. (If you only had a vague feeling and no proof, it would be Suspicions Without Enough Evidence.)"
+    },
+    {
+      "number": 8,
+      "part": 2,
+      "partName": "Defining Ethical Issues",
+      "question": "You own 10% of a startup that is bidding for a contract. Your company's procurement team, which you lead, will choose the winner. Which ethical issue is this?",
+      "options": {
+        "A": "Unfair Advantage",
+        "B": "Dissemblance",
+        "C": "Conflict of Interest",
+        "D": "Repair"
+      },
+      "answer": [
+        "C"
+      ],
+      "multiSelect": false,
+      "explanation": "Your personal stake competes with your duty to be objective. Handout questions: who has a right to know and have I told them? Would my actions cause others to question my motives?"
+    },
+    {
+      "number": 9,
+      "part": 2,
+      "partName": "Defining Ethical Issues",
+      "question": "Last quarter you accidentally double-billed a client $4,000. The client has not noticed and nobody else would catch it. Which ethical issue is this?",
+      "options": {
+        "A": "Repair",
+        "B": "Showing Mercy",
+        "C": "Intervention",
+        "D": "Playing Dirty"
+      },
+      "answer": [
+        "A"
+      ],
+      "multiSelect": false,
+      "explanation": "You made a mistake and could get away with leaving it unfixed. Handout questions: who should bear the cost, and did I act unethically when I made the mistake?"
+    },
+    {
+      "number": 10,
+      "part": 2,
+      "partName": "Defining Ethical Issues",
+      "question": "A rival firm has been using your stolen client list. To get even, a colleague suggests hiring someone to hack into the rival's email and leak the evidence. Which ethical issue is this?",
+      "options": {
+        "A": "Loyalty",
+        "B": "Playing Dirty",
+        "C": "Repair",
+        "D": "Showing Mercy"
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "Getting a fair outcome seems to require using unethical means yourself. Handout questions: would this really bring justice, and does harming the other party help anyone besides me? In class (Sep 14) the example was HP's use of false identities to get phone records."
+    },
+    {
+      "number": 11,
+      "part": 2,
+      "partName": "Defining Ethical Issues",
+      "question": "Your product launch is in two weeks, but the required permit takes eight weeks. A colleague suggests opening to customers \"unofficially\" before the permit arrives. Which ethical issue is this?",
+      "options": {
+        "A": "Standing Up to Power",
+        "B": "Dissemblance",
+        "C": "Skirting the Rules",
+        "D": "Unfair Advantage"
+      },
+      "answer": [
+        "C"
+      ],
+      "multiSelect": false,
+      "explanation": "A worthwhile goal seems to require bending or going around a rule. Handout question: would those with authority over the rule want me to break it here, and why does the rule matter? In class he put it as \"just because you can doesn't mean you should.\""
+    },
+    {
+      "number": 12,
+      "part": 2,
+      "partName": "Defining Ethical Issues",
+      "question": "For a split second you saw what looked like a competitor's confidential files open on a coworker's laptop. You cannot be sure that is what you saw. Which ethical issue is this?",
+      "options": {
+        "A": "Intervention",
+        "B": "Suspicions Without Enough Evidence",
+        "C": "Playing Dirty",
+        "D": "Repair"
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "You sense something is wrong but lack solid proof. Handout questions: what happens if I act and the allegation is false, and who is accountable for solving the problem?"
+    },
+    {
+      "number": 13,
+      "part": 2,
+      "partName": "Defining Ethical Issues",
+      "question": "Your manager asks whether the product will pass certification. It probably will not, but saying \"it's on track\" will keep morale up and the funding in place. Which ethical issue is this?",
+      "options": {
+        "A": "Unfair Advantage",
+        "B": "Loyalty",
+        "C": "Showing Mercy",
+        "D": "Dissemblance"
+      },
+      "answer": [
+        "D"
+      ],
+      "multiSelect": false,
+      "explanation": "Concealing or shading the truth because it might produce a better outcome than full disclosure is Dissemblance. Handout questions: do I have the authority to reveal the truth, and what are my real reasons for misrepresenting it?"
+    },
+    {
+      "number": 14,
+      "part": 3,
+      "partName": "The Ethics Toolkit",
+      "question": "Which criterion asks, \"Am I giving others an opportunity to make their own decisions?\"",
+      "options": {
+        "A": "Dignity",
+        "B": "Agency",
+        "C": "Justice",
+        "D": "Utility"
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "Agency, a Deontology criterion: an action is ethical when it allows other people to make their own choices."
+    },
+    {
+      "number": 15,
+      "part": 3,
+      "partName": "The Ethics Toolkit",
+      "question": "Which pairing of thinker and theory is correct?",
+      "options": {
+        "A": "Immanuel Kant — Deontology",
+        "B": "John Stuart Mill — Virtue Ethics",
+        "C": "Aristotle — Utilitarianism",
+        "D": "Rawls — Ethics of Care"
+      },
+      "answer": [
+        "A"
+      ],
+      "multiSelect": false,
+      "explanation": "Kant = Deontology, Mill = Utilitarianism, Aristotle = Virtue Ethics, Locke/Rousseau/Rawls = Social Contracts, feminist philosophy = Ethics of Care."
+    },
+    {
+      "number": 16,
+      "part": 3,
+      "partName": "The Ethics Toolkit",
+      "question": "\"Will any of our stakeholders feel this decision is unfair to them?\" is the discussion starter for which criterion?",
+      "options": {
+        "A": "Disclosure (Virtue Ethics)",
+        "B": "Utility (Utilitarianism)",
+        "C": "Relationships (Ethics of Care)",
+        "D": "Justice (Deontology)"
+      },
+      "answer": [
+        "D"
+      ],
+      "multiSelect": false,
+      "explanation": "Justice means benefits and costs are equitably distributed. It sits under Deontology in this toolkit."
+    },
+    {
+      "number": 17,
+      "part": 3,
+      "partName": "The Ethics Toolkit",
+      "question": "A company announces layoffs in a 4:55 PM Friday all-hands email while leaders leave early. Employees say they felt \"used\" and \"disposable.\" Which Deontology criterion was most clearly violated?",
+      "options": {
+        "A": "Dignity",
+        "B": "Utility",
+        "C": "Integrity",
+        "D": "Social obligations"
+      },
+      "answer": [
+        "A"
+      ],
+      "multiSelect": false,
+      "explanation": "Dignity: an action is ethical when it treats people as ends in themselves and not just as a means. \"Will our decision make some people feel they are just being used?\" Utility is Utilitarianism, integrity is Virtue Ethics, and social obligations is Social Contracts."
+    },
+    {
+      "number": 18,
+      "part": 3,
+      "partName": "The Ethics Toolkit",
+      "question": "A manager approves a plan because it will raise satisfaction for 90% of customers, even though the other 10% will lose a feature they rely on. Which lens is she applying?",
+      "options": {
+        "A": "Deontology",
+        "B": "Ethics of Care",
+        "C": "Utilitarianism",
+        "D": "Virtue Ethics"
+      },
+      "answer": [
+        "C"
+      ],
+      "multiSelect": false,
+      "explanation": "Greatest benefit to the most people is utility. An Ethics of Care view would ask about the vulnerable 10%."
+    },
+    {
+      "number": 19,
+      "part": 3,
+      "partName": "The Ethics Toolkit",
+      "question": "Which question best fits the integrity / eudaimonism criterion of Virtue Ethics?",
+      "options": {
+        "A": "\"Would I want this broadcast to the world?\"",
+        "B": "\"Will this pass my sleep test?\"",
+        "C": "\"Who is vulnerable in this situation?\"",
+        "D": "\"What if everyone did it?\""
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "Integrity asks what action best reflects the person I want to be, and whether it passes the sleep test. A is Disclosure (also Virtue Ethics), C is Care, and D is Universality (Deontology)."
+    },
+    {
+      "number": 20,
+      "part": 3,
+      "partName": "The Ethics Toolkit",
+      "question": "A hospital board asks, \"What do we owe the community that gives us our license to operate, and what kind of society do we want to help build?\" Which theory is this?",
+      "options": {
+        "A": "Utilitarianism",
+        "B": "Deontology (justice)",
+        "C": "Ethics of Care",
+        "D": "Social Contracts"
+      },
+      "answer": [
+        "D"
+      ],
+      "multiSelect": false,
+      "explanation": "Social obligations: am I fulfilling my societal duties, and what kind of world do I want to live in? Locke, Rousseau and Rawls."
+    },
+    {
+      "number": 21,
+      "part": 3,
+      "partName": "The Ethics Toolkit",
+      "question": "(Select all that apply.) Which of the following are criteria under Virtue Ethics in the Ethics Toolkit?",
+      "options": {
+        "A": "Personal virtues",
+        "B": "Disclosure",
+        "C": "Integrity / eudaimonism",
+        "D": "Justice"
+      },
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "multiSelect": true,
+      "explanation": "Virtue Ethics has three criteria: personal virtues, disclosure, and integrity/eudaimonism. Justice belongs to Deontology."
+    },
+    {
+      "number": 22,
+      "part": 4,
+      "partName": "Rationalization",
+      "question": "Which statement best defines moral rationalization?",
+      "options": {
+        "A": "A careful weighing of competing duties before deciding",
+        "B": "Convincing yourself that unethical behavior does not violate your ethical standards, often by suspending the self-sanctions that guide you",
+        "C": "Lying to other people about what you did",
+        "D": "Following a rule without understanding why it exists"
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "That is the handout's definition. Rationalizing is aimed at yourself, which is why it is dangerous."
+    },
+    {
+      "number": 23,
+      "part": 4,
+      "partName": "Rationalization",
+      "question": "A company executive says, \"The engineers installed that software. Leadership never told them to.\" Which rationalization is this?",
+      "options": {
+        "A": "Moral ledger",
+        "B": "Denial of injury",
+        "C": "Denial of responsibility",
+        "D": "Defense of necessity"
+      },
+      "answer": [
+        "C"
+      ],
+      "multiSelect": false,
+      "explanation": "Shifting blame to another party. In class (Oct 5) he used Volkswagen blaming its engineers."
+    },
+    {
+      "number": 24,
+      "part": 4,
+      "partName": "Rationalization",
+      "question": "A drug company defends a huge price hike: \"No one is really being harmed, because insurers pay for it anyway.\" Which rationalization is this?",
+      "options": {
+        "A": "Denial of injury",
+        "B": "Denial of victim",
+        "C": "Claim of normalcy",
+        "D": "Advantageous comparison"
+      },
+      "answer": [
+        "A"
+      ],
+      "multiSelect": false,
+      "explanation": "Arguing that no one was hurt is denial of injury. In class (Oct 5) the example was Shkreli claiming there was no harm."
+    },
+    {
+      "number": 25,
+      "part": 4,
+      "partName": "Rationalization",
+      "question": "A company that sold addictive painkillers describes its customers as \"victimizers\" who brought their problems on themselves. Which rationalization is this?",
+      "options": {
+        "A": "Appeal to higher loyalty",
+        "B": "Denial of injury",
+        "C": "Condemnation of condemners",
+        "D": "Denial of victim"
+      },
+      "answer": [
+        "D"
+      ],
+      "multiSelect": false,
+      "explanation": "Implying the harmed party deserved it is denial of victim. In class (Oct 5) the example was Purdue Pharma."
+    },
+    {
+      "number": 26,
+      "part": 4,
+      "partName": "Rationalization",
+      "question": "A company announces mass layoffs as \"workforce optimization.\" Which rationalization is this?",
+      "options": {
+        "A": "Denial of negative intent",
+        "B": "Euphemistic language",
+        "C": "Claim of normalcy",
+        "D": "Moral ledger"
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "Replacing harsh words with morally neutral ones. It was his example on Oct 5."
+    },
+    {
+      "number": 27,
+      "part": 4,
+      "partName": "Rationalization",
+      "question": "A manager inflates a performance review and says, \"Everyone in this industry rates high. That's just how reviews work.\" Which rationalization is this?",
+      "options": {
+        "A": "Advantageous comparison",
+        "B": "Defense of necessity",
+        "C": "Claim of normalcy",
+        "D": "Denial of responsibility"
+      },
+      "answer": [
+        "C"
+      ],
+      "multiSelect": false,
+      "explanation": "Appealing to industry or local norms is claim of normalcy. Advantageous comparison would point to something far worse."
+    },
+    {
+      "number": 28,
+      "part": 4,
+      "partName": "Rationalization",
+      "question": "Cited for a conflict of interest, a consultant replies, \"Who are you to judge? Your own firm has been fined twice.\" Which rationalization is this?",
+      "options": {
+        "A": "Denial of victim",
+        "B": "Condemnation of condemners",
+        "C": "Advantageous comparison",
+        "D": "Appeal to higher loyalty"
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "Turning the judgment onto the judge."
+    },
+    {
+      "number": 29,
+      "part": 4,
+      "partName": "Rationalization",
+      "question": "(Select all that apply.) A founder pads an expense report and says, \"I volunteered 200 hours at the shelter this year, so this won't matter. Besides, I'm doing it for my team; they need the bonus.\" Which rationalizations appear?",
+      "options": {
+        "A": "Moral ledger",
+        "B": "Appeal to higher loyalty",
+        "C": "Denial of victim",
+        "D": "Advantageous comparison"
+      },
+      "answer": [
+        "A",
+        "B"
+      ],
+      "multiSelect": true,
+      "explanation": "The volunteer hours are a moral ledger (good deeds offsetting a bad one). \"Doing it for my team\" is an appeal to a higher loyalty. Nobody is blamed (C) and nothing worse is pointed to (D)."
+    },
+    {
+      "number": 30,
+      "part": 5,
+      "partName": "Integrated",
+      "question": "A colleague confides that her manager told her to adjust test results. She is afraid to refuse, and you are the only other person who knows. Which combination of ethical issue and lens fits best?",
+      "options": {
+        "A": "Intervention — Ethics of Care (the vulnerable colleague)",
+        "B": "Repair — Utilitarianism",
+        "C": "Unfair Advantage — Social Contracts",
+        "D": "Showing Mercy — Disclosure"
+      },
+      "answer": [
+        "A"
+      ],
+      "multiSelect": false,
+      "explanation": "You know about wrongdoing and must decide whether to step in, which is Intervention. A scared colleague with little voice points to the Care lens."
+    },
+    {
+      "number": 31,
+      "part": 5,
+      "partName": "Integrated",
+      "question": "A customer asks if an order will ship Friday, and you know there is a real chance it will slip. Telling the whole truth might lose the sale. Which response best reflects Option C for this Dissemblance dilemma?",
+      "options": {
+        "A": "Share only the good news",
+        "B": "Explain the real risk and offer options, such as a partial shipment, an expedited option, or a discount, so the customer can decide",
+        "C": "Let the sales team handle it",
+        "D": "Say nothing and see what happens"
+      },
+      "answer": [
+        "B"
+      ],
+      "multiSelect": false,
+      "explanation": "Option C finds a third path that keeps the truth and the relationship, and it honors agency by letting the customer decide with accurate information."
+    },
+    {
+      "number": 32,
+      "part": 5,
+      "partName": "Integrated",
+      "question": "(Select all that apply.) A supplier whose bid you are evaluating offers you a free luxury trip. Which Toolkit criteria counsel against accepting?",
+      "options": {
+        "A": "Disclosure — \"Would I want this broadcast to the world?\"",
+        "B": "Justice — fairness to the other bidders",
+        "C": "Integrity — \"Does this reflect the kind of person I want to be?\"",
+        "D": "None — a gift does not affect the evaluation"
+      },
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "multiSelect": true,
+      "explanation": "All three fail. The gift would not hold up if made public, it is unfair to other bidders, and it would not pass the sleep test. D is a rationalization of its own (denial of injury)."
+    },
+    {
+      "number": 33,
+      "part": 5,
+      "partName": "Integrated",
+      "question": "In a rush, a team starts debating which ethical lens to use before agreeing on what actually happened. According to the Six Steps, what did they skip?",
+      "options": {
+        "A": "Step 1 — Gather the facts",
+        "B": "Step 5 — Think creatively",
+        "C": "Step 6 — Check your gut",
+        "D": "Nothing; the lens should be chosen first"
+      },
+      "answer": [
+        "A"
+      ],
+      "multiSelect": false,
+      "explanation": "Facts come first. Lenses are Step 4, so they cannot be used well until the facts, issues, and stakeholders are known."
+    }
+  ]
+}

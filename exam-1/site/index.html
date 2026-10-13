@@ -1,0 +1,983 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Study guide and two practice exams for BYU PSE 390 (Ethics for Management), with lecture notes. Unofficial, student-made.">
+<meta property="og:title" content="PSE 390 Midterm Guide">
+<meta property="og:description" content="Study guide, two 33-question practice exams with explanations, and lecture notes for the PSE 390 midterm.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230b2a52'/%3E%3Cpath d='M16 34l12 12 20-26' stroke='%23ffe27a' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<title>PSE 390 Midterm Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap">
+<style>
+/* Layout: one narrow reading column, five tabs. No header chrome; the questions are the page. */
+:root {
+  --paper: #f7f6f2; --panel: #ffffff; --ink: #17202e; --muted: #5a6577; --rule: #d9dbe0;
+  --navy: #0b2a52; --navy-ink: #ffffff; --hl: #ffe27a; --hl-ink: #3d3000;
+  --ok: #1d6b45; --ok-bg: #e2f2e9; --bad: #a3321f; --bad-bg: #f8e4df; --warn-bg: #fff4d6; --link: #0b4a9c;
+  --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0f141c; --panel: #172030; --ink: #e8ecf3; --muted: #a0abbd; --rule: #2b374a;
+    --navy: #1b3f74; --navy-ink: #ffffff; --hl: #e5c24a; --hl-ink: #2a2200;
+    --ok: #6fd29b; --ok-bg: #16352a; --bad: #ff9a85; --bad-bg: #3d1f1a; --warn-bg: #3a3017; --link: #8db8ff;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0f141c; --panel: #172030; --ink: #e8ecf3; --muted: #a0abbd; --rule: #2b374a;
+  --navy: #1b3f74; --navy-ink: #ffffff; --hl: #e5c24a; --hl-ink: #2a2200;
+  --ok: #6fd29b; --ok-bg: #16352a; --bad: #ff9a85; --bad-bg: #3d1f1a; --warn-bg: #3a3017; --link: #8db8ff;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+a { color: var(--link); }
+.wrap { max-width: 820px; margin-inline: auto; padding-inline: 16px; padding-block: 20px 72px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; line-height: 1.2; margin: 0; }
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.35rem; margin: 28px 0 4px; }
+h3 { font-size: 1.05rem; margin: 20px 0 6px; }
+p { margin: 0 0 10px; }
+.mono { font-family: var(--font-mono); font-size: .82rem; }
+.top { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; justify-content: space-between; }
+.sub { color: var(--muted); font-size: .9rem; }
+.banner { margin-top: 12px; background: var(--warn-bg); border: 1px solid var(--rule); border-left: 4px solid var(--hl); border-radius: 4px; padding: 10px 14px; font-size: .92rem; }
+
+.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); display: flex; gap: 4px; margin-top: 14px; border-bottom: 1px solid var(--rule); overflow-x: auto; }
+.tab { font: inherit; font-size: .92rem; font-weight: 500; padding: 11px 14px; background: none; border: 0; border-bottom: 3px solid transparent; color: var(--muted); cursor: pointer; white-space: nowrap; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--navy); }
+:root[data-theme="dark"] .tab[aria-selected="true"] { border-bottom-color: var(--hl); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tab[aria-selected="true"] { border-bottom-color: var(--hl); } }
+.tab:focus-visible, .btn:focus-visible, .opt:focus-visible, summary:focus-visible { outline: 3px solid var(--hl); outline-offset: 2px; }
+.btn { font: inherit; font-size: .9rem; padding: 8px 14px; border-radius: 4px; border: 1px solid var(--rule); background: var(--panel); color: var(--ink); cursor: pointer; }
+.btn.primary { background: var(--navy); color: var(--navy-ink); border-color: var(--navy); }
+
+.part { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 30px 0 4px; }
+.q { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 14px 16px; margin-top: 12px; }
+.q .qt { margin: 0 0 10px; }
+.q .qn { font-family: var(--font-display); font-weight: 700; margin-right: 6px; }
+.tag { font-family: var(--font-mono); font-size: .68rem; letter-spacing: .04em; text-transform: uppercase; padding: 2px 6px; border-radius: 3px; background: var(--hl); color: var(--hl-ink); white-space: nowrap; margin-left: 6px; }
+.opts { display: grid; gap: 6px; }
+.o { display: grid; grid-template-columns: 26px 1fr; gap: 8px; padding: 8px 10px; border: 1px solid var(--rule); border-radius: 5px; background: var(--paper); font-size: .95rem; }
+.o .l { font-family: var(--font-mono); color: var(--muted); }
+.o.right { background: var(--ok-bg); border-color: var(--ok); }
+.o.right .l::after { content: " ✓"; color: var(--ok); }
+label.o { cursor: pointer; align-items: start; grid-template-columns: 22px 26px 1fr; }
+label.o:hover { border-color: var(--navy); }
+label.o input { margin-top: 5px; }
+label.o.miss { border-color: var(--bad); background: var(--bad-bg); }
+.why { margin-top: 10px; padding: 10px 12px; border-left: 4px solid var(--ok); background: var(--paper); border-radius: 0 4px 4px 0; font-size: .92rem; }
+.why .cls { display: block; margin-top: 6px; color: var(--muted); }
+.why .cls b { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); }
+.why .ans { font-family: var(--font-mono); font-size: .78rem; letter-spacing: .05em; text-transform: uppercase; color: var(--ok); display: block; margin-bottom: 2px; }
+
+.result { margin-top: 14px; padding: 14px 16px; border-radius: 6px; background: var(--panel); border: 1px solid var(--rule); border-left: 4px solid var(--navy); }
+.result b { font-family: var(--font-display); font-size: 1.3rem; }
+textarea { width: 100%; min-height: 120px; font: inherit; font-size: .95rem; padding: 10px; border: 1px solid var(--rule); border-radius: 5px; background: var(--paper); color: var(--ink); resize: vertical; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 18px; }
+
+.keygrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); gap: 6px; margin-top: 10px; }
+.keygrid div { background: var(--panel); border: 1px solid var(--rule); border-radius: 4px; padding: 5px 8px; font-family: var(--font-mono); font-size: .85rem; display: flex; justify-content: space-between; }
+.keygrid b { font-weight: 500; }
+
+details.lec { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 4px 16px; margin-top: 10px; }
+details.lec summary { cursor: pointer; padding: 10px 0; font-weight: 600; }
+details.lec summary span { font-weight: 400; color: var(--muted); margin-left: 6px; }
+details.lec h4 { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin: 14px 0 4px; font-weight: 500; }
+details.lec ul { margin: 0 0 8px; padding-left: 20px; }
+details.lec li { margin-bottom: 4px; font-size: .94rem; }
+details.lec .src { font-size: .85rem; color: var(--muted); padding-bottom: 10px; }
+.tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 6px; background: var(--panel); margin: 8px 0; }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+th, td { text-align: left; vertical-align: top; padding: 7px 10px; border-bottom: 1px solid var(--rule); }
+th { font-family: var(--font-mono); font-size: .66rem; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); background: var(--paper); font-weight: 500; }
+tr:last-child td { border-bottom: 0; }
+td.k { font-weight: 600; white-space: nowrap; }
+footer { margin-top: 36px; color: var(--muted); font-size: .85rem; }
+
+body { margin: 0; }
+[hidden] { display: none !important; }
+.opt { display: grid; grid-template-columns: 26px 1fr; gap: 8px; text-align: left; font: inherit; font-size: .95rem; padding: 9px 10px; border: 1px solid var(--rule); border-radius: 5px; background: var(--paper); color: var(--ink); cursor: pointer; width: 100%; }
+.opt .l { font-family: var(--font-mono); color: var(--muted); }
+.opt:hover:not([disabled]) { border-color: var(--navy); }
+.opt.picked { border-color: var(--navy); box-shadow: inset 0 0 0 1px var(--navy); }
+.opt.right { background: var(--ok-bg); border-color: var(--ok); }
+.opt.wrong { background: var(--bad-bg); border-color: var(--bad); }
+.opt[disabled] { cursor: default; color: var(--ink); }
+.qtools { display: flex; gap: 8px; align-items: center; margin-top: 10px; flex-wrap: wrap; }
+.linkbtn { font: inherit; font-size: .85rem; background: none; border: 0; color: var(--link); cursor: pointer; padding: 4px 0; text-decoration: underline; }
+.why .verdict { font-family: var(--font-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; display: block; margin-bottom: 3px; }
+.why.ok { border-left-color: var(--ok); }
+.why.no { border-left-color: var(--bad); }
+.why.ok .verdict { color: var(--ok); }
+.why.no .verdict { color: var(--bad); }
+.bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 12px 0 0; }
+.score { margin-left: auto; font-family: var(--font-mono); font-size: .85rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.opt:focus-visible { outline: 3px solid var(--hl); outline-offset: 2px; }
+
+#p-guide .blk { padding-top: 26px; scroll-margin-top: 64px; }
+#p-guide .lede { color: var(--muted); max-width: 65ch; }
+#p-guide .eyebrow { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+#p-guide .tag { background: var(--rule); color: var(--ink); margin-left: 0; }
+#p-guide .tag.hot { background: var(--hl); color: var(--hl-ink); }
+#p-guide .tag.post { background: transparent; border: 1px solid var(--rule); color: var(--muted); }
+#p-guide .hi { background: var(--hl); color: var(--hl-ink); padding: 0 4px; border-radius: 2px; }
+#p-guide .card { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 14px 16px; }
+#p-guide .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px; }
+#p-guide .two > * { min-width: 0; }
+#p-guide .pair { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; font-size: .92rem; }
+#p-guide .pair b { font-family: var(--font-display); }
+#p-guide ul.tight { margin: 6px 0 0; padding-left: 20px; }
+#p-guide ul.tight li { margin-bottom: 3px; }
+#p-guide td.wide { min-width: 210px; }
+#p-guide .tip { margin: 10px 0 0; padding: 9px 12px; background: var(--panel); border-left: 4px solid var(--hl); border-radius: 0 4px 4px 0; font-size: .9rem; }
+#p-guide .tip b { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; margin-right: 4px; }
+#p-guide .steps { display: grid; gap: 8px; margin: 12px 0; padding: 0; list-style: none; counter-reset: s; }
+#p-guide .steps li { counter-increment: s; display: grid; grid-template-columns: 34px 1fr; gap: 10px; background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 10px 14px; }
+#p-guide .steps li::before { content: counter(s); font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; color: var(--navy); line-height: 1; }
+:root[data-theme="dark"] #p-guide .steps li::before { color: var(--hl); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) #p-guide .steps li::before { color: var(--hl); } }
+#p-guide .steps b { display: block; }
+#p-guide .steps small { color: var(--muted); font-size: .88rem; }
+#p-guide .scen { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; margin-top: 12px; }
+#p-guide .scen h4 { font-family: var(--font-display); font-size: 1.02rem; margin: 0 0 4px; }
+#p-guide .scen p { margin-bottom: 6px; font-size: .92rem; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
+.chips a { font-size: .85rem; padding: 6px 11px; border: 1px solid var(--rule); border-radius: 999px; background: var(--panel); color: var(--ink); text-decoration: none; }
+.chips a:hover, .chips a:focus-visible { border-color: var(--navy); outline: none; }
+.disclaimer { margin-top: 40px; padding-top: 14px; border-top: 1px solid var(--rule); color: var(--muted); font-size: .85rem; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <h1>PSE 390 Midterm Guide</h1>
+    <button class="btn" id="themeBtn" type="button">Light / dark</button>
+  </div>
+  <div class="banner"><b>The exam:</b> on Canvas, opens Wed Oct 14 and stays open a couple of extra days. About 32–33 multiple choice plus a couple of short-answer application questions (Prof. Kaylor, Oct 5). He said rationalization statements "will be on the test" and that he'll describe a scenario and you name the framework.</div>
+
+  <div class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="t-guide" aria-controls="p-guide" aria-selected="true" type="button">Study Guide</button>
+    <button class="tab" role="tab" id="t-e1" aria-controls="p-e1" aria-selected="false" type="button">Practice Exam 1</button>
+    <button class="tab" role="tab" id="t-e2" aria-controls="p-e2" aria-selected="false" type="button">Practice Exam 2</button>
+    <button class="tab" role="tab" id="t-lect" aria-controls="p-lect" aria-selected="false" type="button">Lectures</button>
+  </div>
+
+  <section id="p-guide" role="tabpanel" aria-labelledby="t-guide">
+    <h2>Study Guide</h2>
+    <p class="sub">Everything the practice exams draw on, in one place. Question numbers like (Q6) point to Practice Exam 1.</p>
+    <nav class="chips" aria-label="Study guide sections">
+      <a href="#sg-start">Start here</a><a href="#sg-steps">Six Steps</a><a href="#sg-issues">13 issues</a><a href="#sg-toolkit">Toolkit</a><a href="#sg-rat">Rationalizations</a><a href="#sg-cases">Cases</a><a href="#sg-map">Course map</a>
+    </nav>
+    <div class="blk" id="sg-start">
+  <h2>Start here</h2>
+  <p class="lede">The midterm questions come from four handouts, so the whole plan is to know these four cold. Read the sections below, then test yourself on Practice Exam 1 (the Canvas study guide) and Practice Exam 2.</p>
+  <div class="two">
+    <div class="card">
+      <div class="eyebrow">The four source handouts</div>
+      <ul class="tight">
+        <li>Six Steps to Ethical Decision Making <span class="tag hot">Q1–5, 31</span></li>
+        <li>Defining Ethical Issues – Succinct <span class="tag hot">Q6–14</span></li>
+        <li>Ethics Toolkit <span class="tag hot">Q15–22, 32</span></li>
+        <li>Rationalization handout <span class="tag hot">Q23–29</span></li>
+      </ul>
+      <p class="sub" style="margin:8px 0 0">All in Canvas › Files › Course Materials. Q-numbers refer to Practice Exam 1.</p>
+    </div>
+    <div class="card">
+      <div class="eyebrow">What to expect</div>
+      <ul class="tight">
+        <li>Canvas, opens Wed Oct 14, open a couple of extra days</li>
+        <li>About 32–33 multiple choice plus a couple of short answers</li>
+        <li>Scenario in, framework or issue out</li>
+        <li>Rationalization statements to classify</li>
+      </ul>
+      <p class="sub" style="margin:8px 0 0">Source: Prof. Kaylor in class, Oct 5 and Sep 16. Details on the Lectures tab.</p>
+    </div>
+  </div>
+</div><div class="blk" id="sg-steps">
+  <h2>The Six Steps</h2>
+  <p class="lede">Memorize the order and what each step is called. Questions 1–5 test exactly this, and Q30–33 apply it.</p><p class="tip"><b>From class</b> In class (Sep 21–23) he stressed Steps 2, 4 and 5 (define the issue, lenses, Option C) and called the gut check "spidey sense," sometimes "the Spirit." He sometimes counted eight steps; the handout has six, and the study guide follows the handout.</p>
+  <ol class="steps">
+    <li><div><b>Gather the Facts</b><small>Always first. Know what actually happened before judging it.</small></div></li>
+    <li><div><b>Define the Ethical Issues</b><small>Name the type of dilemma using the 13 categories below.</small></div></li>
+    <li><div><b>Identify the Affected Parties (Stakeholders)</b><small>Everyone touched, including people with no voice, like the contract workers who absorb the overtime (Q3).</small></div></li>
+    <li><div><b>Identify the Obligations &amp; Consequences (Lenses)</b><small>The tool for this step is the ethical lenses in the Ethics Toolkit, not a cost-benefit analysis (Q2).</small></div></li>
+    <li><div><b>Think Creatively About Potential Actions (Option C)</b><small>Escape the either/or. Recall vs. say nothing becomes a free patch plus a plain notice (Q5).</small></div></li>
+    <li><div><b>Check Your Gut (Spider Senses; The Spirit)</b><small>Last step. If every lens says yes but you feel uneasy, pause and re-examine before acting (Q4).</small></div></li>
+  </ol>
+  <p>Memory hook: <span class="hi">Facts → Issues → People → Lenses → Option C → Gut</span>. Textbook (MBE Ch. 2) calls its version "Eight Steps." The course handout is the Six Steps; use the Six on the exam.</p>
+</div><div class="blk" id="sg-issues">
+  <h2>The 13 ethical issue types</h2>
+  <p class="lede">Source: <a href="https://byu.instructure.com/courses/38393/files/13848250">Defining Ethical Issues – Succinct</a> for the definitions, and the longer <a href="https://byu.instructure.com/courses/38393/files/13510254">defining ethical issues</a> handout for the "ask yourself" questions. Match the scenario to its <i>single best</i> fit; the exam gives four choices.</p><p class="tip"><b>From class</b> In class (Sep 14) he gave a real company example for each type, listed on the Lectures tab (Boeing, Wells Fargo, McKinsey, HP, Amazon, J&amp;J, and more). He ranked Skirting the Rules as "slightly less bad" than Playing Dirty.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Issue</th><th>What it is</th><th>Ask yourself</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Standing Up to Power</td><td class="wide">Someone with authority over you asks you to do something you believe is wrong.</td><td class="wide">Do they have the right to ask this of me? Are there others who agree with me?</td></tr>
+      <tr><td class="k">Made a Promise and World Has Changed</td><td class="wide">Circumstances shifted after you committed, so the promise is now costly or hard to keep.</td><td class="wide">Can I still keep it, even at cost? Does keeping it make other promises harder to keep?</td></tr>
+      <tr><td class="k">Intervention</td><td class="wide">You see wrongdoing and must decide whether and how to step in despite risk to yourself.</td><td class="wide">Am I the right person, or should I recruit help? How do I cause the least harm to everyone?</td></tr>
+      <tr><td class="k">Conflict of Interest</td><td class="wide">Your personal stake in an outcome competes with your duty to act objectively.</td><td class="wide">Who has a right to know, and have I told them? Would my actions make others question my motives? Are there rules I should follow?</td></tr>
+      <tr><td class="k">Suspicions Without Enough Evidence</td><td class="wide">You sense something is wrong but lack proof solid enough to act on.</td><td class="wide">What happens if I act and the allegation is false? Who is accountable for solving the problem?</td></tr>
+      <tr><td class="k">Playing Dirty</td><td class="wide">Getting a fair outcome seems to require using unfair or unethical means yourself.</td><td class="wide">Would this really bring justice or the greatest good? Does harming the other party help anyone besides me?</td></tr>
+      <tr><td class="k">Skirting the Rules</td><td class="wide">A worthwhile goal seems to require bending or breaking a rule or law.</td><td class="wide">Would those with authority over the rule want me to break it here? What are all the reasons the rule matters?</td></tr>
+      <tr><td class="k">Dissemblance</td><td class="wide">Concealing or shading the truth might produce a better outcome than full disclosure.</td><td class="wide">Do I have the authority to reveal the truth? What are my real reasons for misrepresenting it?</td></tr>
+      <tr><td class="k">Loyalty</td><td class="wide">You must decide how much you owe someone because of the relationship, even at a cost.</td><td class="wide">Have they shown loyalty to me? Would they want my loyalty if they knew all the costs?</td></tr>
+      <tr><td class="k">Sacrificing Personal Values or Relationships</td><td class="wide">Staying true to your principles will impose a real cost on someone else.</td><td class="wide">What costs am I willing to bear for my beliefs or relationships? What burden am I placing on others?</td></tr>
+      <tr><td class="k">Unfair Advantage</td><td class="wide">You have a genuine edge over someone, but you are not sure it was fairly earned.</td><td class="wide">What makes the advantage unfair? If I were the other party, how would I view someone making my choice?</td></tr>
+      <tr><td class="k">Repair</td><td class="wide">You made a mistake and could get away with leaving it unfixed.</td><td class="wide">Who should bear the cost of the mistake? Did I act unethically when I made it?</td></tr>
+      <tr><td class="k">Showing Mercy</td><td class="wide">Someone asks you to ease or forgive a consequence that is yours to enforce.</td><td class="wide">Is mercy mine to give? Who bears the cost of showing it?</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Pairs that get confused</h3>
+  <div class="two">
+    <div class="pair"><b>Standing Up to Power vs. Skirting the Rules.</b> Power = a person above you <i>tells</i> you to do wrong (Q6). Skirting = <i>you</i> are tempted to bend a rule for a good goal (Q31, Kim's $15,000 limit).</div>
+    <div class="pair"><b>Conflict of Interest vs. Loyalty.</b> COI = your own stake threatens objectivity in a duty you hold (Q9, scholarship committee). Loyalty = what you owe a person because of the relationship (Q11, mentor).</div>
+    <div class="pair"><b>Suspicions vs. Intervention.</b> Suspicions = you lack proof (Q13). Intervention = you know it is happening and must decide whether to step in (Q30).</div>
+    <div class="pair"><b>Playing Dirty vs. Unfair Advantage.</b> Playing Dirty = <i>you</i> consider unethical means to even things up (Q12). Unfair Advantage = you <i>already hold</i> an edge you doubt you earned (Q32).</div>
+    <div class="pair"><b>Dissemblance vs. Suspicions.</b> Dissemblance = you know the truth and are tempted to hide or soften it (Q7, Q14, Q33). Suspicions = you do not know the truth.</div>
+    <div class="pair"><b>Showing Mercy vs. Repair.</b> Mercy = someone else's consequence is yours to enforce (Q10). Repair = your own mistake you could leave unfixed.</div>
+  </div>
+</div><div class="blk" id="sg-toolkit">
+  <h2>The Ethics Toolkit</h2>
+  <p class="lede">Source: <a href="https://byu.instructure.com/courses/38393/files/13510253">Ethics Toolkit.pdf</a>. Five theories, ten decision criteria. Know the criterion name, the theory it belongs to, and the question that goes with it. The <a href="https://byu.instructure.com/courses/38393/files/13510276">key questions</a> handout is the one-page version.</p><p class="tip"><b>From class</b> He said (Sep 16) the exam will describe a scenario and you name the framework. He also said the frameworks overlap, and that the same case can be read through more than one.</p>
+  <div class="tablewrap"><table class="theory">
+    <thead><tr><th>Theory</th><th>Criterion</th><th>An action is ethical when…</th><th>Ask yourself</th></tr></thead>
+    <tbody>
+      <tr><td class="k" rowspan="4">Deontology<br><span class="mono">Immanuel Kant</span></td><td class="k">Universality</td><td>I would be willing for it to become universal law.</td><td>What if everyone did it? What obligations do I have?</td></tr>
+      <tr><td class="k">Dignity</td><td>It treats others as ends in themselves, not just as a means.</td><td>Am I protecting the rights and dignity of other people?</td></tr>
+      <tr><td class="k">Agency</td><td>It allows other people to make their own choices.</td><td>Am I giving others the opportunity to make their own decisions?</td></tr>
+      <tr><td class="k">Justice</td><td>Benefits and costs are equitably distributed.</td><td>Will this be fair to all involved?</td></tr>
+      <tr><td class="k">Utilitarianism<br><span class="mono">John Stuart Mill</span></td><td class="k">Utility</td><td>It maximizes happiness and minimizes pain; the greatest benefit to the most people.</td><td>Who is affected? Who benefits and who is harmed?</td></tr>
+      <tr><td class="k" rowspan="3">Virtue Ethics<br><span class="mono">Aristotle</span></td><td class="k">Personal virtues</td><td>It helps me become a better person.</td><td>What kind of person would this make me? What would the best person in the world do?</td></tr>
+      <tr><td class="k">Disclosure</td><td>I would be willing to have it broadcast to the public.</td><td>Would I want this broadcast to the world? Can I live with it? ("Front page of the newspaper")</td></tr>
+      <tr><td class="k">Integrity / eudaimonism</td><td>It is true to who I am and who I want to become.</td><td>What action best reflects the person I want to be? Does it pass my "sleep test"?</td></tr>
+      <tr><td class="k">Social Contracts<br><span class="mono">Locke, Rousseau, Rawls</span></td><td class="k">Social obligations</td><td>I am fulfilling my obligation to contribute to a harmonious society.</td><td>Am I fulfilling my societal duties? What kind of world do I want to live in?</td></tr>
+      <tr><td class="k" rowspan="2">Ethics of Care<br><span class="mono">Feminist philosophy</span></td><td class="k">Care</td><td>It meets the needs of the most vulnerable.</td><td>Who is vulnerable here? Who does not have a voice who should?</td></tr>
+      <tr><td class="k">Relationships</td><td>It benefits those I have trust in and obligations toward.</td><td>Who has put their trust in me?</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>How to match fast</h3>
+  <div class="two">
+    <div class="pair"><b>Trigger phrase → criterion</b>
+      <ul class="tight">
+        <li>"What if everyone did it?" → <b>Universality</b> (Deontology)</li>
+        <li>"Used / just a means" → <b>Dignity</b> (Deontology)</li>
+        <li>"Let them decide for themselves" → <b>Agency</b> (Deontology)</li>
+        <li>"Greatest good for the most people" → <b>Utility</b></li>
+        <li>"Front page / broadcast" → <b>Disclosure</b> (Virtue)</li>
+        <li>"Sleep test / kind of person" → <b>Integrity</b> / personal virtues</li>
+        <li>"Who is vulnerable / no voice" → <b>Care</b></li>
+        <li>"Who trusts me" → <b>Relationships</b> (Care)</li>
+        <li>"Societal duties / kind of world" → <b>Social obligations</b></li>
+      </ul>
+    </div>
+    <div class="pair"><b>Typical lens conflicts</b>
+      <ul class="tight">
+        <li><b>Utilitarianism vs. Care.</b> Closing a free clinic to benefit more patients: Utilitarianism leans yes, Care leans no (Q19).</li>
+        <li><b>Utilitarianism vs. Deontology.</b> Profit or "greater good" does not license using people as means (Q22).</li>
+        <li><b>Disclosure</b> belongs to <i>Virtue Ethics</i>, not Deontology or Social Contracts (Q20).</li>
+        <li><b>Justice</b> belongs to <i>Deontology</i> in this toolkit (Q20 trap).</li>
+      </ul>
+    </div>
+  </div>
+</div><div class="blk" id="sg-rat">
+  <h2>Moral rationalization</h2>
+  <p class="lede">Source: <a href="https://byu.instructure.com/courses/38393/files/13510256">rationalization handout</a>. Definition: convincing yourself that your unethical behavior somehow does not violate your ethical standards; more specifically, suspending the self-sanctions that normally guide your behavior. Eleven forms.</p><p class="tip"><b>From class</b> He said (Oct 5) "these rationalization ideas will be on the test": expect a few statements and you say which rationalization each one is. When a statement fits two, he accepts either. Necessity is "no choice"; higher loyalty is a noble purpose.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Form</th><th>Handout definition</th><th>What it sounds like</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Denial of responsibility</td><td class="wide">Shifting blame to another party.</td><td class="wide">"Talk to my manager, she told me to." (Q24)</td></tr>
+      <tr><td class="k">Denial of injury</td><td class="wide">Arguing that no one was hurt.</td><td class="wide">"Nobody will miss a few pens." (Q25)</td></tr>
+      <tr><td class="k">Denial of victim</td><td class="wide">Implying the unethical behavior was the victim's fault.</td><td class="wide">"They had it coming."</td></tr>
+      <tr><td class="k">Condemnation of condemners</td><td class="wide">Turning the judgment onto the judge.</td><td class="wide">"You've never run a business a day in your life." (Q26)</td></tr>
+      <tr><td class="k">Appeal to higher loyalty</td><td class="wide">Acting in the name of a higher purpose; the end justifies the means.</td><td class="wide">"Saving 350 families is a higher calling." (Q-Medica)</td></tr>
+      <tr><td class="k">Moral ledger</td><td class="wide">Believing you have done enough good to offset or justify the bad.</td><td class="wide">"We give 10% to charity, so this is no big deal." (Q27)</td></tr>
+      <tr><td class="k">Defense of necessity</td><td class="wide">Having no choice but to engage in the misconduct.</td><td class="wide">"I had no choice." (Q29)</td></tr>
+      <tr><td class="k">Claim of normalcy</td><td class="wide">Appealing to industry or local norms.</td><td class="wide">"Everyone does it." "Standard industry practice."</td></tr>
+      <tr><td class="k">Denial of negative intent</td><td class="wide">Arguing that pure motives make the action justifiable.</td><td class="wide">"My heart was in the right place." (Q29)</td></tr>
+      <tr><td class="k">Advantageous comparison</td><td class="wide">Pointing to an extreme case so your behavior looks mild.</td><td class="wide">"Compared to Enron, this is nothing." (Q28)</td></tr>
+      <tr><td class="k">Euphemistic language</td><td class="wide">Swapping harsh words for morally neutral ones to downplay the act.</td><td class="wide">"Tariff optimization." "Calibration variance." (Q29)</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Look-alikes</h3>
+  <div class="two">
+    <div class="pair"><b>Denial of injury vs. Denial of victim.</b> Injury = no one was harmed. Victim = harm happened but the victim deserved it.</div>
+    <div class="pair"><b>Denial of responsibility vs. Denial of negative intent.</b> Responsibility = someone else is to blame. Intent = I am to blame but I meant well.</div>
+    <div class="pair"><b>Claim of normalcy vs. Advantageous comparison.</b> Normalcy = it is common, so it is fine. Comparison = it is minor next to something far worse.</div>
+    <div class="pair"><b>Moral ledger vs. Appeal to higher loyalty.</b> Ledger = past or separate good deeds offset this. Higher loyalty = a cause served by this very act justifies it.</div>
+    <div class="pair"><b>Defense of necessity vs. Appeal to higher loyalty.</b> Necessity = I had no alternative. Higher loyalty = a noble purpose outweighs the rule. If the quote is about a cause (families, mission), it is loyalty; if it is about being cornered, it is necessity.</div>
+  </div>
+</div><div class="blk" id="sg-cases">
+  <h2>Cases and scenarios from class</h2>
+  <p class="lede">These are in Canvas under Files › Course Materials and the Defining Ethical Issues Content folder. They are not on the study guide, but the exam uses the same skill: name the issue, name the lens. Issue labels here are a student's reading, not the professor's, so treat them as practice.</p>
+
+  <div class="scen">
+    <h4>Q-Medica Launch <a class="tag" href="https://byu.instructure.com/courses/38393/files/13976225">PDF</a></h4>
+    <p>Apex Health's CardioScan Q has a rare telemetry glitch. Shipping saves 350 jobs; fixing it means bankruptcy. The assignment asks students to identify rationalizations in six executive statements. This is the best practice for Part 4.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Speaker</th><th>Statement</th><th>Rationalization</th></tr></thead>
+      <tbody>
+        <tr><td class="k">Mark (CEO)</td><td>"My hands are tied; I just have to execute what ownership demands."</td><td>Denial of responsibility</td></tr>
+        <tr><td class="k">David (CFO)</td><td>"Nobody is actually going to die or get permanently hurt by a 10-second blip."</td><td>Denial of injury</td></tr>
+        <tr><td class="k">Elena (Engineer)</td><td>"Every medical device company cuts corners… standard industry practice."</td><td>Claim of normalcy</td></tr>
+        <tr><td class="k">Sarah (QA)</td><td>"350 families… a much higher calling than fussing over a microscopic variance."</td><td>Appeal to higher loyalty</td></tr>
+        <tr><td class="k">Mark (CEO)</td><td>"We spend millions manufacturing free equipment for rural clinics."</td><td>Moral ledger</td></tr>
+        <tr><td class="k">Tom (Legal)</td><td>Call it a "minor calibration variance" instead of a hardware defect.</td><td>Euphemistic language</td></tr>
+      </tbody>
+    </table></div>
+    <p style="margin-top:10px">Lens view: Utilitarianism weighs 350 jobs against patient risk; Deontology says patients cannot be used as a means (dignity, agency); Care points to surgical patients who cannot know the risk. Option C: disclose to hospitals and regulators, seek bridge financing, or ship only with a warning and a fast fix.</p>
+  </div>
+
+  <div class="scen">
+    <h4>The Advisor in the Boardroom <a class="tag" href="https://byu.instructure.com/courses/38393/files/14038407">PDF</a></h4>
+    <p>Sam Reyes is an advisor and board observer at Brightline. The rival, Vector, offers him a Chief Revenue Officer job. As an observer he is not a legal fiduciary and California non-competes are generally unenforceable, so the question is what he <i>ethically</i> owes. Decision point 2 flips to Brightline's CEO, who learns of the talks after Sam advised on confidential matters.</p>
+    <p><b>Issues:</b> Conflict of Interest (the core), Loyalty, Dissemblance (his assurance that he'd "made too much money" and the silence during talks). <b>Handout questions that fit:</b> Who has a right to know and have I told them? Would my actions cause others to question my motives? <b>Lenses:</b> Disclosure ("would I want these talks broadcast?"), Social Contracts (implicit trust and confidentiality), Relationships (who has trusted him). This case matches the Oct 12 Conflicts of Interest class.</p>
+  </div>
+
+  <div class="scen">
+    <h4>Practice scenarios 1–6 <a class="tag" href="https://byu.instructure.com/courses/38393/files/folder/Defining%20Ethical%20Issues%20Content">Defining Ethical Issues Content folder</a></h4>
+    <p>Six short dilemmas (files <span class="mono">1.pdf</span> through <span class="mono">6.pdf</span>). Likely issues:</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Scenario</th><th>Likely issues</th><th>Strongest lens</th></tr></thead>
+      <tbody>
+        <tr><td class="k">1 · Shelley's GMAT waiver</td><td class="wide">Dissemblance (told to keep it secret, VP asks her score directly); Unfair Advantage; Loyalty to the friend who had to take the test</td><td class="wide">Disclosure; Justice</td></tr>
+        <tr><td class="k">2 · Kim's $9k + $11k repair</td><td class="wide">Skirting the Rules (splitting a $20k job to dodge the $15k approval)</td><td class="wide">Universality; Social Contracts. Option C: emergency approval from her boss by phone</td></tr>
+        <tr><td class="k">3 · Boeing 737 MAX AOA alert</td><td class="wide">Safety fix deferred 12 months to save cost; Dissemblance and Intervention</td><td class="wide">Care (passengers have no voice); Utility; Disclosure</td></tr>
+        <tr><td class="k">4 · Omar and Bridget</td><td class="wide">Loyalty; Suspicions Without Enough Evidence (neighbor's rumors); Dissemblance about what to tell management</td><td class="wide">Care (Bridget's family); Justice to Omar and the team</td></tr>
+        <tr><td class="k">5 · Andrea and the altered questionnaire</td><td class="wide">Standing Up to Power; Dissemblance; Suspicions (she cannot confirm the answers are false)</td><td class="wide">Agency (clients deciding on false data); Disclosure</td></tr>
+        <tr><td class="k">6 · Craig and Mr. Francis</td><td class="wide">Suspicions Without Enough Evidence; Intervention</td><td class="wide">Care (students); Justice (to Mr. Francis if the claims are false)</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="scen">
+    <h4>Other case files</h4>
+    <ul class="tight">
+      <li><a href="https://byu.instructure.com/courses/38393/files/13510252">Case: Wired for Hire</a>: you offered a security job to a marginally qualified outsider, then the person you really want becomes available. Reads as <i>Made a Promise and the World Has Changed</i> (based on the setup only).</li>
+      <li><a href="https://byu.instructure.com/courses/38393/files/13510277">Case: Riding a Fine Line</a>: a new CEO tells you not to tell a longtime supplier anything has changed. Scheduled for Oct 19, so after the midterm.</li>
+      <li><a href="https://byu.instructure.com/courses/38393/files/13510276">key questions (for Personal Ethical Dilemma)</a>: the one-page lens questions, useful for the toolkit section.</li>
+      <li><a href="https://byu.instructure.com/courses/38393/files/13851696">390 Preparation Sheet – Fall 2026</a> (spreadsheet for the Preparation assignment, not the exam).</li>
+    </ul>
+  </div>
+</div><div class="blk" id="sg-map">
+  <h2>Course map and readings</h2>
+  <p class="lede">From the Canvas home page. Everything through Oct 12 is before the midterm. Per his Oct 6 announcement, the Oct 7 class was cancelled and moved to Oct 12 with Conflicts of Interest. Box and YouTube links are the instructor's; the readings are supplementary to the four handouts.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Date</th><th>Topic</th><th>Materials</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Sep 2</td><td>Introduction</td><td><a href="https://byu.box.com/s/n4lscxt13mmlvgte0skor5ti04qsjh52">Becoming Men &amp; Women of Integrity – Callister</a> · <a href="https://byu.box.com/s/j2ijxfkd35j667h8uqk1kjgohudvt6yl">Honesty &amp; Integrity – R. Lee</a> · <a href="https://byu.box.com/s/kiulqb9ffpnhwszmcbvhcs8e5zwtn38b">Why Study Ethics – Clowney</a> · <a href="https://byu.box.com/s/2yezf580rpmkbf09y5nrh7lj95gvxh85">What is Ethics? (video)</a></td></tr>
+      <tr><td class="k">Sep 9</td><td>Decision making: Intuition <span class="tag">Draft code of ethics due</span></td><td><a href="https://byu.box.com/s/m8ujvbrjb2dg77rt6b5u6xwhe8mimain">Elephants Rule</a></td></tr>
+      <tr><td class="k">Sep 14</td><td>Defining ethical issues <span class="tag hot">on exam</span></td><td><a href="https://byu.box.com/s/9tjio14phzzy41jnkvovmhv3g87u9pjl">HANDOUT – defining ethical issues</a> · MBE Ch. 1, pp. 15–25 (from "Ethics and the Law" to "How This Book Is Structured")</td></tr>
+      <tr><td class="k">Sep 16</td><td>Deliberation: the lenses <span class="tag hot">on exam</span></td><td>Videos: <a href="https://byu.box.com/s/9stded2alpg481o7jdsllq5ygwjzxqhw">Utilitarianism</a> · <a href="https://byu.box.com/s/zgdcmrr0fld8tf6pyoh974p2v2nx9b5h">Deontology</a> · <a href="https://byu.box.com/s/q93186xr0o0jjtb1a5gb58zww15vwi5g">Virtue Ethics</a> · <a href="https://byu.box.com/s/ul4hv01w18itz1ikwnqensgyi021ypgz">Social Contracts</a> · <a href="https://byu.box.com/s/bir5h7d3f2rp6osyjl1rwyeqf71g4vrs">Ethics of Care – Dunn &amp; Burton</a></td></tr>
+      <tr><td class="k">Sep 21</td><td>Deliberation (6 steps) <span class="tag hot">on exam</span></td><td>MBE Ch. 2, pp. 50–58 ("Eight Steps to Sound Ethical Decision Making in Business" to "Conclusion")</td></tr>
+      <tr><td class="k">Sep 23</td><td>Ethics Toolkit <span class="tag hot">on exam</span></td><td><a href="https://byu.box.com/s/b2y0p3lfh7x7y6nwoix2lvgv8fz516xs">Ethics Toolkit reading – Agle et al.</a> · <a href="https://byu.box.com/s/jgmszcf2xk3a5gutc5ns2buqc0jfcajj">Toolkit handout</a></td></tr>
+      <tr><td class="k">Sep 28</td><td>Why good people do bad things: Bias</td><td><a href="https://byu.box.com/s/owobut8ddrnou3n4ealbuj31nmtmdizm">Ethical Blind Spots – Sezer et al.</a> · <a href="https://byu.box.com/s/zlfiu88w1iddqbrk12b8dnu3m332gk91">Our Buggy Moral Code (video)</a></td></tr>
+      <tr><td class="k">Sep 30</td><td>Why good people do bad things: Cases <span class="tag">Personal Ethical Dilemma</span></td><td>In-class cases (see above)</td></tr>
+      <tr><td class="k">Oct 5</td><td>Rationalization <span class="tag hot">on exam</span></td><td><a href="https://byu.box.com/s/t5wp937d284jxpgqlpyqwx9hly57aarm">Rationalization (video)</a> · <a href="https://byu.box.com/s/0nej7axunn8gmvcgq4zrdhhlwzl0nfq1">HANDOUT – rationalization</a></td></tr>
+      <tr><td class="k">Oct 7 → 12</td><td>Truth in Markets (moved to Oct 12)</td><td>Watch <a href="https://www.youtube.com/watch?v=BgNfrDXr7uA">this</a> and either <a href="https://www.youtube.com/watch?v=9wf_2KYRPWQ">this</a> or <a href="https://www.youtube.com/watch?v=vMQlj9TZQfE">this</a></td></tr>
+      <tr><td class="k">Oct 12</td><td>Conflicts of Interest</td><td>MBE Ch. 4, pp. 129–136 ("Conflicts of Interest" to "Customer Confidence Issues")</td></tr>
+      <tr><td class="k">Oct 14–17</td><td><b>MIDTERM</b></td><td><a href="https://byu.instructure.com/courses/38393/assignments/1442313">Canvas assignment</a></td></tr>
+      <tr><td class="k">Oct 14</td><td>Personal Values in Business <span class="tag post">after exam</span></td><td>No materials listed</td></tr>
+      <tr><td class="k">Oct 19</td><td>Stakeholders <span class="tag post">after exam</span></td><td><a href="https://byu.box.com/s/tfalqhumhc9zfuvp3qlr0trd60okltdr">Business Roundtable statement</a> · <a href="https://www.stakeholdermap.com/stakeholder-analysis/stakeholder-salience.php">Stakeholder salience</a> · <a href="https://byu.box.com/s/mwedwr6jqbds9yai42dty7a9tytpldd6">Riding a Fine Line (case)</a></td></tr>
+      <tr><td class="k">Oct 21</td><td>Moral Worth of Ends I &amp; II <span class="tag post">after exam</span></td><td><a href="https://byu.box.com/s/7gcc8xnqugl1275svd87yzw7fl22fhey">Nikola (video)</a> · <a href="https://ethicsunwrapped.utexas.edu/video/epipen-out-of-reach">EpiPen</a> · <a href="https://ethicsunwrapped.utexas.edu/video/daraprim-price-hike">Daraprim</a> · <a href="https://ethicsunwrapped.utexas.edu/the-banality-of-evil-mba-edition">McKinsey</a></td></tr>
+      <tr><td class="k">Oct 26 – Dec 9</td><td>Commodification, Technology &amp; Business, Organizational Culture, Obedience, Dissent, Happiness, Ethical Leadership <span class="tag post">after exam</span></td><td>Final assignments: <a href="https://byu.instructure.com/courses/38393/assignments/1442315">Organizational Ethics Audit</a> (Nov 16) · <a href="https://byu.instructure.com/courses/38393/assignments/1442318">Preparation</a> (Dec 7) · <a href="https://byu.instructure.com/courses/38393/assignments/1442316">Personal Code of Ethics &amp; Implementation Plan</a> (Dec 9)</td></tr>
+    </tbody>
+  </table></div>
+</div>
+  </section>
+
+  <section id="p-e1" role="tabpanel" aria-labelledby="t-e1" hidden>
+    <h2>Practice Exam 1</h2>
+    <p class="sub">Prof. Kaylor's Mid-Term Study Guide, exactly as posted on Canvas (33 questions). He did not post an answer key, so the answers here are student-derived; four are tagged judgment. Click an answer to see the right one and why. Handouts it draws from: Six Steps to Ethical Decision Making, Defining Ethical Issues – Succinct, Ethics Toolkit, and the rationalization handout.</p>
+    <div class="bar"><button class="btn" id="reset1" type="button">Start over</button><button class="btn" id="reveal1" type="button">Show all answers</button><span class="score" id="score1" aria-live="polite"></span></div>
+    <div id="list1"></div>
+  </section>
+
+  <section id="p-e2" role="tabpanel" aria-labelledby="t-e2" hidden>
+    <h2>Practice Exam 2</h2>
+    <p class="sub">33 new multiple choice questions in the same style, plus two short-answer questions like the ones he described. Click an answer to see the right one and why.</p>
+    <div class="bar"><button class="btn" id="reset2" type="button">Start over</button><button class="btn" id="reveal2" type="button">Show all answers</button><span class="score" id="score2" aria-live="polite"></span></div>
+    <div id="list2"></div>
+    <h2>Short answer</h2>
+    <div id="shortList"></div>
+  </section>
+
+  <section id="p-lect" role="tabpanel" aria-labelledby="t-lect" hidden>
+    <h2>What he said in class</h2>
+    <p class="sub">Summaries of all eight lecture recordings in the class repo, <a href="https://github.com/DrFunDip72/PSE-390/tree/main/notes/2026">DrFunDip72/PSE-390</a>. They come from AI transcripts (which garble names), so the notes below leave out passages that could not be followed. No recording exists yet for the Oct 7 class (cancelled) or Oct 12 (Conflicts of Interest, not uploaded as of Oct 12). A note can be dated one day before its class.</p>
+
+    <h3>Everything he said about the exam</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Date</th><th>What he said</th></tr></thead>
+      <tbody>
+        <tr><td class="k">Sep 2</td><td>There will be a midterm and a study guide. It is "pretty easy" if you go through the guide and memorize some of the concepts. Multiple choice, testing center or Canvas.</td></tr>
+        <tr><td class="k">Sep 16</td><td>"I will be putting down some ethical framework applications on the test" and you say which is utilitarianism, deontology, and so on.</td></tr>
+        <tr><td class="k">Sep 21</td><td>The study guide will help you study what will be on the test, "not like vague lists."</td></tr>
+        <tr><td class="k">Sep 23</td><td>"None of this is going to be on the test," said about the toolkit authors' bios and his stories about them (the context suggests that, but it is ambiguous).</td></tr>
+        <tr><td class="k">Oct 5</td><td>Canvas, opens the 14th, no class that day, open a couple of extra days. About 32–33 multiple choice plus a couple of short answers about applying the material and your biggest takeaways. The goal is to help you learn, not to trip you up.</td></tr>
+        <tr><td class="k">Oct 5</td><td>"These rationalization ideas will be on the test." There will be a couple of statements and you will have to know which rationalization each one is.</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Eight recordings</h3>
+    <div id="lecList"></div>
+    <footer>Source: transcripts and summaries in the class GitHub repository. Where a transcript was too garbled to trust, it was left out.</footer>
+  </section>
+  <p class="disclaimer">Unofficial, student-made study aid. Not affiliated with BYU or Prof. Kaylor. Answer keys and explanations are student-derived, not official; check anything important against your handouts and notes.</p>
+</div>
+
+<script>
+var STUDY = [
+    [1, 1, `Which sequence correctly lists the Six Steps to Sound Ethical Decision Making?`,
+      [`Define the issues → Gather the facts → Check your gut → Identify stakeholders → Apply lenses → Option C`,
+       `Gather the facts → Define the ethical issues → Identify stakeholders → Identify obligations & consequences → Think creatively (Option C) → Check your gut`,
+       `Identify stakeholders → Gather the facts → Apply lenses → Define the issues → Check your gut → Option C`,
+       `Check your gut → Gather the facts → Define the issues → Option C → Identify stakeholders → Apply lenses`],
+      `B`, `Facts first, gut check last. The order is Facts → Issues → Stakeholders → Obligations & Consequences (lenses) → Option C → Gut. Every other choice scrambles it.`],
+    [2, 1, `Step 4 (of the Six Steps to Sound Ethical Decision Making) asks decision makers to identify obligations and consequences. What tool does the framework use for this step?`,
+      [`A cost–benefit analysis`, `A stakeholder map`, `Ethical lenses (theoretical perspectives)`, `A gut check`],
+      `C`, `Step 4 = the lenses from the Ethics Toolkit (Deontology, Utilitarianism, Virtue Ethics, Social Contracts, Care). A stakeholder map is Step 3 and the gut check is Step 6.`],
+    [3, 1, `A product team evaluating a new same-day delivery promise lists customers, shareholders, and the software engineers as affected parties. They do not consider the warehouse contract workers who will absorb the overtime. Which step was done incompletely?`,
+      [`Step 1 — Gather the facts`, `Step 2 — Define the ethical issues`, `Step 3 — Identify the affected parties`, `Step 5 — Think creatively about potential actions`],
+      `C`, `Leaving out people who bear the cost is a stakeholder gap, which is Step 3. Notice the missing group is the one with the least voice, which is also what the Ethics of Care lens looks for.`],
+    [4, 1, `An analyst works through the first 5 Steps and every lens appears to support her plan, yet she feels uneasy about it. According to the framework, the best response is to:`,
+      [`Ignore the feeling, because the analysis is complete`, `Treat the unease as a signal to pause and re-examine the decision before acting`, `Restart at Step 1 and discard the prior analysis`, `Let a supervisor decide to help share responsibility`],
+      `B`, `Step 6 (spider senses; the Spirit) treats unease as data. You do not override it (A), throw out good work (C), or hand off responsibility (D). You pause and re-examine.`],
+    [5, 1, `A company finds a minor defect in a smart thermostat. Leadership frames the choice as "full recall" versus "say nothing." An engineer proposes a free software patch with a plain-language notice to every customer. The engineer's contribution best illustrates:`,
+      [`Step 1 — Gather the facts`, `Step 3 — Identify stakeholders`, `Step 5 — Option C – Think creatively`, `Step 6 — Check your gut`],
+      `C`, `Two bad options framed as the only choices, then a third that serves everyone: that is Option C.`],
+
+    [6, 2, `You are a mid-level manager at a logistics firm. Your supervisor explicitly instructs you to falsify safety inspection logs to meet a strict shipping deadline, stating, "Everyone does it to keep things moving." According to the categories of defining ethical issues, what specific type of dilemma are you facing?`,
+      [`Conflict of Interest`, `Standing Up to Power`, `Dissemblance`, `Skirting the Rules`],
+      `B`, `The deciding detail is that a person with authority over you is explicitly telling you to do wrong. That is Standing Up to Power. Skirting the Rules is when you are the one tempted to bend a rule. ("Everyone does it" is also a claim of normalcy rationalization.)`, true],
+    [7, 2, `Which of the following best describes the "Dissemblance" category of ethical issues?`,
+      [`Blindly obeying a corrupt authority figure`, `Concealing or shading the truth because you believe it will produce a better outcome than full disclosure`, `Using unfair means because everyone else is doing it`, `Forgiving a mistake that is yours to enforce`],
+      `B`, `Dissemblance is hiding or softening the truth for a supposedly better result. A is Standing Up to Power, C is Playing Dirty, D is Showing Mercy.`],
+    [8, 2, `Three months ago you agreed to be a groomsman in a friend's wedding. Last week you were offered a once-in-a-career job interview that falls on the wedding day and cannot be rescheduled.`,
+      [`Made a Promise and the World Has Changed`, `Sacrificing Personal Values or Relationships`, `Unfair Advantage`, `Showing Mercy`],
+      `A`, `A prior commitment plus new circumstances that make it costly. The handout asks: can I still keep it even at cost, and does keeping it make other promises harder?`],
+    [9, 2, `You sit on a scholarship selection committee. Your younger cousin is one of the finalists.`,
+      [`Loyalty`, `Unfair Advantage`, `Conflict of Interest`, `Suspicions Without Enough Evidence`],
+      `C`, `Personal stake versus a duty to be objective. Loyalty also appears, but the decision-making role is what makes this a conflict of interest. Handout: who has a right to know, and have I told them?`, true],
+    [10, 2, `As a teaching assistant, you enforce a strict late-work penalty. A student who missed the deadline because of a family emergency asks you to waive it.`,
+      [`Loyalty`, `Showing Mercy`, `Conflict of Interest`, `Standing Up to Power`],
+      `B`, `Someone asks you to ease a consequence that is yours to enforce. Handout: is mercy mine to give? Who bears the cost?`],
+    [11, 2, `Your mentor, who helped you secure your dream job, asks you to quietly route a minor client invoice through an auxiliary account to avoid a local tax bracket. You owe your career to this person. Which category of ethical issues is most prominent here?`,
+      [`Repair`, `Loyalty`, `Unfair Advantage`, `Showing Mercy`],
+      `B`, `"You owe your career to this person" is the loyalty cue. Handout: have they shown loyalty to me, and would they want it if they knew all the costs?`],
+    [12, 2, `A rival firm has been spreading false rumors about your company to win clients. A colleague suggests anonymously leaking the rival's internal pricing sheet, which he obtained from a former employee, "to level the playing field."`,
+      [`Intervention`, `Repair`, `Playing Dirty`, `Made a Promise and the World Has Changed`],
+      `C`, `Using unethical means to get a fair outcome. Handout: would this really bring justice, and does harming the other party help anyone besides you?`],
+    [13, 2, `You notice a coworker consistently taking home expensive office technology under the radar. You don't have hard proof yet, only missing inventory logs and suspicious late-night office entries. What type of ethical issue does this situation represent?`,
+      [`Intervention`, `Suspicions Without Enough Evidence`, `Playing Dirty`, `Loyalty`],
+      `B`, `The key phrase is "don't have hard proof." Handout: what happens if I act and the allegation is false?`],
+    [14, 2, `(Select all that apply.) Your best friend is on your project team and has been underperforming. Your manager asks you for a candid peer evaluation that will affect your friend's raise. You are tempted to soften the truth. Which ethical issues are present?`,
+      [`Loyalty`, `Dissemblance`, `Sacrificing Personal Values or Relationships`, `Unfair Advantage`],
+      `ABC`, `A (friend) and B (tempted to soften the truth) are clear. C is the judgment call: being honest puts a real cost on your friend and the friendship. D does not fit; nobody holds an unearned edge.`, true],
+
+    [15, 3, `The question "What if everyone did it?" tests which decision criterion, from which theory?`,
+      [`Utility — Utilitarianism`, `Universality — Deontology`, `Disclosure — Virtue Ethics`, `Social obligations — Social Contracts`],
+      `B`, `Universality, from Kant's Deontology.`],
+    [16, 3, `Under Utilitarianism (John Stuart Mill), an action is ethical when it:`,
+      [`Treats people as ends in themselves`, `Is consistent with who I want to become`, `Maximizes happiness and minimizes pain, providing the greatest benefit to the most people`, `Meets the needs of the most vulnerable`],
+      `C`, `A is Deontology (dignity), B is Virtue Ethics (integrity), D is Ethics of Care.`],
+    [17, 3, `Aristotle's Virtue Ethics emphasizes personal character and self-reflection. Which of the following questions reflects this philosophical approach?`,
+      [`"What kind of person would this action make me? What would the best person in the world do?"`, `"What if everyone adopted this behavior as a universal law?"`, `"Who is most vulnerable in this situation?"`, `"Am I fulfilling my explicit contractual duties to the state?"`],
+      `A`, `B is Deontology, C is Care, D is Social Contracts.`],
+    [18, 3, `Which pair of questions best represents the Ethics of Care?`,
+      [`"What if everyone did it?" and "What obligations do I have?"`, `"Who is vulnerable here?" and "Who has put their trust in me?"`, `"Would I want this broadcast?" and "Can I live with my decision?"`, `"Am I fulfilling my societal duties?" and "What kind of world do I want to live in?"`],
+      `B`, `Care has two criteria: care (the vulnerable) and relationships (those who trust you). A is Deontology, C is Virtue (disclosure), D is Social Contracts.`],
+    [19, 3, `A regional hospital system plans to close a free clinic in a low-income neighborhood. The savings would fund upgrades that benefit far more patients system-wide. Which pairing best describes how two lenses would view the closure?`,
+      [`Utilitarianism tends to support it; Ethics of Care tends to oppose it`, `Utilitarianism tends to oppose it; Ethics of Care tends to support it`, `Both lenses clearly support it`, `Neither lens is relevant to the decision`],
+      `A`, `Utilitarianism counts the greater benefit to more patients. Care focuses on the vulnerable neighborhood losing its only access.`],
+    [20, 3, `A CEO considering an aggressive tax-avoidance scheme asks his team, "How would this look on the front page of the newspaper?" He is applying:`,
+      [`Justice (Deontology)`, `Universality (Deontology)`, `Disclosure (Virtue Ethics)`, `Relationships (Ethics of Care)`],
+      `C`, `"Broadcast to the world" and "front page" are the Disclosure rule, which sits under Virtue Ethics.`],
+    [21, 3, `Social Contract theory (associated with Locke, Rousseau, and Rawls) evaluates ethical decisions based on whether:`,
+      [`You are fulfilling your obligation to contribute to a harmonious society and respecting societal duties`, `The action maximizes short-term shareholder value`, `The decision feels true to your inner personal virtues`, `The action treats people strictly as a means to an end`],
+      `A`, `Social obligations. B is not a lens, C is Virtue, D is the opposite of Deontology's dignity criterion.`],
+    [22, 3, `A software engineer finds a critical security flaw in her company's new banking app. Her boss tells her to bury the report because patching it will delay the product launch and crash the stock price. Which ethical lenses most directly support the engineer's duty to blow the whistle or refuse the order?`,
+      [`Utilitarianism exclusively, because short-term stock crashes matter more than long-term trust`, `Ethics of Care, because software code has feelings`, `Social Contract theory, because tax brackets are shifting`, `Deontology (protecting user rights and dignity rather than using them as a means to profit) and the Disclosure Rule`],
+      `D`, `Users would be used as a means to profit (dignity), and burying the flaw would not survive being broadcast (Disclosure). The other options are distractors.`],
+
+    [23, 4, `What is the primary definition of moral rationalization?`,
+      [`Making ethical decisions based strictly on company policy`, `Convincing oneself that unethical behavior somehow does not violate ethical standards`, `Accepting full responsibility for a mistake`, `Seeking guidance from a higher moral authority`],
+      `B`, `Straight from the handout: convincing ourselves that unethical behavior does not violate our standards.`],
+    [24, 4, `A sales rep is caught backdating a client contract. She responds, "Talk to my manager — she's the one who told me to do it." Which rationalization is she using?`,
+      [`Denial of responsibility`, `Claim of normalcy`, `Denial of victim`, `Euphemistic language`],
+      `A`, `Shifting blame to another party.`],
+    [25, 4, `An intern takes several boxes of office supplies home and tells himself, "The company buys this stuff by the pallet. Nobody is going to miss a few pens." This is:`,
+      [`Moral ledger`, `Advantageous comparison`, `Denial of injury`, `Condemnation of condemners`],
+      `C`, `"Nobody is going to miss it" argues that no one was hurt.`],
+    [26, 4, `A restaurant owner is cited for not paying overtime. He tells the labor inspector, "You people just need to hit your quota of fines. You've never run a business a day in your life." This is an example of:`,
+      [`Condemnation of condemners`, `Denial of victim`, `Claim of normalcy`, `Appeal to higher loyalty`],
+      `A`, `He attacks the person judging him instead of addressing the violation.`],
+    [27, 4, `A startup founder reasons, "We give 10% of our profits to clean-water charities, so inflating our user numbers a bit in the investor deck isn't a big deal." Which rationalization is this?`,
+      [`Denial of negative intent`, `Advantageous comparison`, `Appeal to higher loyalty`, `Moral ledger`],
+      `D`, `Good deeds in one place are used to offset bad behavior in another.`],
+    [28, 4, `An accountant who "smooths" quarterly earnings tells a colleague, "Compared to what happened at Enron, adjusting a few accruals is nothing." Which rationalization is she using?`,
+      [`Claim of normalcy`, `Advantageous comparison`, `Moral ledger`, `Denial of responsibility`],
+      `B`, `She points to an extreme case so hers looks mild. Normalcy would be "everyone smooths earnings."`],
+    [29, 4, `(Select all that apply.) A small-business owner mislabels imported goods to avoid tariffs. He says: "If I paid the full tariff, I'd have to lay off my whole staff — I had no choice. I wasn't trying to cheat anyone; my heart was in the right place. In our books, it's just listed as 'tariff optimization.'" Which rationalizations appear?`,
+      [`Defense of necessity`, `Denial of negative intent`, `Denial of victim`, `Euphemistic language`],
+      `ABD`, `"I had no choice" = necessity. "My heart was in the right place" = negative intent. "Tariff optimization" = euphemism. He never blames a victim, so C is out.`],
+
+    [30, 5, `You are a new analyst. In the hallway, you watch a senior manager berate and belittle a summer intern in front of others. No one says anything. Which combination of ethical issue and lens best fits this situation?`,
+      [`Repair — Utilitarianism`, `Intervention — Ethics of Care (care for the most vulnerable)`, `Conflict of Interest — Social Contracts`, `Unfair Advantage — Virtue Ethics`],
+      `B`, `You see wrongdoing and must decide whether to step in, which is Intervention. The intern is the vulnerable person without a voice, so the Care lens applies.`],
+    [31, 5, `A nonprofit director runs an after-school program. Her grant prohibits spending on food, but many children arrive hungry. She is tempted to reclassify snack purchases as "educational supplies." Which response best reflects Step 5 (Option C) for this Skirting the Rules dilemma?`,
+      [`Reclassify the purchases; the goal is worthwhile`, `Follow the rule and do nothing about the hunger`, `Ask the funder for a budget modification and partner with a local food bank to supply snacks`, `Resign, hoping it sends a statement that influences change`],
+      `C`, `Option C finds a third path that honors the rule and meets the need. A breaks the rule, B ignores the need, D abandons the kids.`],
+    [32, 5, `(Select all that apply.) An older teammate hands a student-athlete a copy of next week's exam, which the student never asked for. The student recognizes this as an Unfair Advantage. Which Toolkit criteria would counsel against using the exam?`,
+      [`Universality — "What if everyone did it?"`, `Disclosure — "Would I want this broadcast to the world?"`, `Integrity — "What action best reflects the kind of person I want to be?"`, `None — because he didn't ask for the exam, no ethical issue exists`],
+      `ABC`, `Using the exam fails universality, disclosure and integrity. D is wrong: receiving an unfair edge without asking does not make it fair. Justice and agency also apply, but they were not offered.`, true],
+    [33, 5, `A sales manager's client asks whether an order will ship by Friday. The manager knows there is roughly a 50% chance of delay. Saying a confident "yes" will likely close the deal. This is a Dissemblance dilemma. Which response best honors the agency criterion?`,
+      [`Say "yes" and hope it ships on time`, `Say "yes" and offer a discount if it's late`, `Explain the real risk of delay so the client can plan and decide for themselves`, `Avoid answering and change the subject`],
+      `C`, `Agency means letting others make their own choices, which requires true information. A, B and D all deprive the client of it.`]
+];
+
+// [n, part, question, [options A-D], answer letters, explanation]
+var EXAM = [
+  [1, 1, `Before deciding how to respond to a customer complaint about a defective part, a manager pauses to ask what actually happened, who reported it, and what the test data show. Which of the Six Steps is she on?`,
+    [`Step 1 — Gather the facts`, `Step 2 — Define the ethical issues`, `Step 4 — Identify the obligations & consequences`, `Step 6 — Check your gut`],
+    `A`, `Establishing what actually happened is Step 1. It always comes first, before you name the issue or reach for a lens. In class (Sep 21) he called jumping to a solution before knowing the facts "often a first mistake."`],
+  [2, 1, `Which statement correctly matches a step of the Six Steps with its label?`,
+    [`Step 2 — Check your gut`, `Step 3 — Identify the affected parties (stakeholders)`, `Step 4 — Think creatively about potential actions (Option C)`, `Step 6 — Gather the facts`],
+    `B`, `Step 3 is stakeholders. Step 2 is defining the issues, Step 4 is obligations and consequences through the lenses, Step 5 is Option C, and Step 6 is the gut check.`],
+  [3, 1, `A plant manager is told to either lay off 100 people now or hide the problem until next quarter. A colleague suggests negotiating extended supplier payment terms and offering voluntary reduced hours so the layoffs can be avoided. Which step does the colleague's idea represent?`,
+    [`Step 3 — Identify stakeholders`, `Step 4 — Identify obligations & consequences`, `Step 5 — Think creatively (Option C)`, `Step 6 — Check your gut`],
+    `C`, `Two bad choices framed as the only options, then a third path that serves more people. That is Option C, Step 5. He said in class that "so many times C is the smarter option."`],
+  [4, 1, `Step 4 of the Six Steps is also called "Lenses." Which of these is an example of what you do in Step 4?`,
+    [`Make a list of everyone the decision will affect`, `Ask "What if everyone did it?" about the proposed action`, `Brainstorm a third alternative to the two options on the table`, `Notice a knot in your stomach about the decision`],
+    `B`, `"What if everyone did it?" is a Deontology (universality) question, so it is a lens question and belongs in Step 4. A is Step 3, C is Step 5, and D is Step 6.`],
+
+  [5, 2, `A senior partner tells you to remove a negative finding from a client's audit report because the client is a large account. You believe removing it is wrong. Which ethical issue is this?`,
+    [`Showing Mercy`, `Repair`, `Unfair Advantage`, `Standing Up to Power`],
+    `D`, `Someone with authority over you is asking you to do something you believe is wrong. Handout questions: do they have the right to ask this of me, and are there others who agree with me?`],
+  [6, 2, `Six months ago you told a vendor you would renew their contract. Since then, a cheaper vendor with better quality has appeared and your budget has been cut by 20%. Which ethical issue is this?`,
+    [`Unfair Advantage`, `Made a Promise and the World Has Changed`, `Playing Dirty`, `Conflict of Interest`],
+    `B`, `You made a commitment, and circumstances changed so that keeping it is now costly. Ask: can I still keep it even at a cost, and does keeping it make other promises harder to keep?`],
+  [7, 2, `You overhear two managers planning to shred documents before an audit. You have to decide whether and how to step in, and whether to bring in your HR partner for help. Which ethical issue is this?`,
+    [`Suspicions Without Enough Evidence`, `Loyalty`, `Intervention`, `Showing Mercy`],
+    `C`, `You know about wrongdoing and have to decide whether and how to step in despite the risk to yourself. The handout asks if you are the right person or should recruit help. (If you only had a vague feeling and no proof, it would be Suspicions Without Enough Evidence.)`],
+  [8, 2, `You own 10% of a startup that is bidding for a contract. Your company's procurement team, which you lead, will choose the winner. Which ethical issue is this?`,
+    [`Unfair Advantage`, `Dissemblance`, `Conflict of Interest`, `Repair`],
+    `C`, `Your personal stake competes with your duty to be objective. Handout questions: who has a right to know and have I told them? Would my actions cause others to question my motives?`],
+  [9, 2, `Last quarter you accidentally double-billed a client $4,000. The client has not noticed and nobody else would catch it. Which ethical issue is this?`,
+    [`Repair`, `Showing Mercy`, `Intervention`, `Playing Dirty`],
+    `A`, `You made a mistake and could get away with leaving it unfixed. Handout questions: who should bear the cost, and did I act unethically when I made the mistake?`],
+  [10, 2, `A rival firm has been using your stolen client list. To get even, a colleague suggests hiring someone to hack into the rival's email and leak the evidence. Which ethical issue is this?`,
+    [`Loyalty`, `Playing Dirty`, `Repair`, `Showing Mercy`],
+    `B`, `Getting a fair outcome seems to require using unethical means yourself. Handout questions: would this really bring justice, and does harming the other party help anyone besides me? In class (Sep 14) the example was HP's use of false identities to get phone records.`],
+  [11, 2, `Your product launch is in two weeks, but the required permit takes eight weeks. A colleague suggests opening to customers "unofficially" before the permit arrives. Which ethical issue is this?`,
+    [`Standing Up to Power`, `Dissemblance`, `Skirting the Rules`, `Unfair Advantage`],
+    `C`, `A worthwhile goal seems to require bending or going around a rule. Handout question: would those with authority over the rule want me to break it here, and why does the rule matter? In class he put it as "just because you can doesn't mean you should."`],
+  [12, 2, `For a split second you saw what looked like a competitor's confidential files open on a coworker's laptop. You cannot be sure that is what you saw. Which ethical issue is this?`,
+    [`Intervention`, `Suspicions Without Enough Evidence`, `Playing Dirty`, `Repair`],
+    `B`, `You sense something is wrong but lack solid proof. Handout questions: what happens if I act and the allegation is false, and who is accountable for solving the problem?`],
+  [13, 2, `Your manager asks whether the product will pass certification. It probably will not, but saying "it's on track" will keep morale up and the funding in place. Which ethical issue is this?`,
+    [`Unfair Advantage`, `Loyalty`, `Showing Mercy`, `Dissemblance`],
+    `D`, `Concealing or shading the truth because it might produce a better outcome than full disclosure is Dissemblance. Handout questions: do I have the authority to reveal the truth, and what are my real reasons for misrepresenting it?`],
+
+  [14, 3, `Which criterion asks, "Am I giving others an opportunity to make their own decisions?"`,
+    [`Dignity`, `Agency`, `Justice`, `Utility`],
+    `B`, `Agency, a Deontology criterion: an action is ethical when it allows other people to make their own choices.`],
+  [15, 3, `Which pairing of thinker and theory is correct?`,
+    [`Immanuel Kant — Deontology`, `John Stuart Mill — Virtue Ethics`, `Aristotle — Utilitarianism`, `Rawls — Ethics of Care`],
+    `A`, `Kant = Deontology, Mill = Utilitarianism, Aristotle = Virtue Ethics, Locke/Rousseau/Rawls = Social Contracts, feminist philosophy = Ethics of Care.`],
+  [16, 3, `"Will any of our stakeholders feel this decision is unfair to them?" is the discussion starter for which criterion?`,
+    [`Disclosure (Virtue Ethics)`, `Utility (Utilitarianism)`, `Relationships (Ethics of Care)`, `Justice (Deontology)`],
+    `D`, `Justice means benefits and costs are equitably distributed. It sits under Deontology in this toolkit.`],
+  [17, 3, `A company announces layoffs in a 4:55 PM Friday all-hands email while leaders leave early. Employees say they felt "used" and "disposable." Which Deontology criterion was most clearly violated?`,
+    [`Dignity`, `Utility`, `Integrity`, `Social obligations`],
+    `A`, `Dignity: an action is ethical when it treats people as ends in themselves and not just as a means. "Will our decision make some people feel they are just being used?" Utility is Utilitarianism, integrity is Virtue Ethics, and social obligations is Social Contracts.`],
+  [18, 3, `A manager approves a plan because it will raise satisfaction for 90% of customers, even though the other 10% will lose a feature they rely on. Which lens is she applying?`,
+    [`Deontology`, `Ethics of Care`, `Utilitarianism`, `Virtue Ethics`],
+    `C`, `Greatest benefit to the most people is utility. An Ethics of Care view would ask about the vulnerable 10%.`],
+  [19, 3, `Which question best fits the integrity / eudaimonism criterion of Virtue Ethics?`,
+    [`"Would I want this broadcast to the world?"`, `"Will this pass my sleep test?"`, `"Who is vulnerable in this situation?"`, `"What if everyone did it?"`],
+    `B`, `Integrity asks what action best reflects the person I want to be, and whether it passes the sleep test. A is Disclosure (also Virtue Ethics), C is Care, and D is Universality (Deontology).`],
+  [20, 3, `A hospital board asks, "What do we owe the community that gives us our license to operate, and what kind of society do we want to help build?" Which theory is this?`,
+    [`Utilitarianism`, `Deontology (justice)`, `Ethics of Care`, `Social Contracts`],
+    `D`, `Social obligations: am I fulfilling my societal duties, and what kind of world do I want to live in? Locke, Rousseau and Rawls.`],
+  [21, 3, `(Select all that apply.) Which of the following are criteria under Virtue Ethics in the Ethics Toolkit?`,
+    [`Personal virtues`, `Disclosure`, `Integrity / eudaimonism`, `Justice`],
+    `ABC`, `Virtue Ethics has three criteria: personal virtues, disclosure, and integrity/eudaimonism. Justice belongs to Deontology.`],
+
+  [22, 4, `Which statement best defines moral rationalization?`,
+    [`A careful weighing of competing duties before deciding`, `Convincing yourself that unethical behavior does not violate your ethical standards, often by suspending the self-sanctions that guide you`, `Lying to other people about what you did`, `Following a rule without understanding why it exists`],
+    `B`, `That is the handout's definition. Rationalizing is aimed at yourself, which is why it is dangerous.`],
+  [23, 4, `A company executive says, "The engineers installed that software. Leadership never told them to." Which rationalization is this?`,
+    [`Moral ledger`, `Denial of injury`, `Denial of responsibility`, `Defense of necessity`],
+    `C`, `Shifting blame to another party. In class (Oct 5) he used Volkswagen blaming its engineers.`],
+  [24, 4, `A drug company defends a huge price hike: "No one is really being harmed, because insurers pay for it anyway." Which rationalization is this?`,
+    [`Denial of injury`, `Denial of victim`, `Claim of normalcy`, `Advantageous comparison`],
+    `A`, `Arguing that no one was hurt is denial of injury. In class (Oct 5) the example was Shkreli claiming there was no harm.`],
+  [25, 4, `A company that sold addictive painkillers describes its customers as "victimizers" who brought their problems on themselves. Which rationalization is this?`,
+    [`Appeal to higher loyalty`, `Denial of injury`, `Condemnation of condemners`, `Denial of victim`],
+    `D`, `Implying the harmed party deserved it is denial of victim. In class (Oct 5) the example was Purdue Pharma.`],
+  [26, 4, `A company announces mass layoffs as "workforce optimization." Which rationalization is this?`,
+    [`Denial of negative intent`, `Euphemistic language`, `Claim of normalcy`, `Moral ledger`],
+    `B`, `Replacing harsh words with morally neutral ones. It was his example on Oct 5.`],
+  [27, 4, `A manager inflates a performance review and says, "Everyone in this industry rates high. That's just how reviews work." Which rationalization is this?`,
+    [`Advantageous comparison`, `Defense of necessity`, `Claim of normalcy`, `Denial of responsibility`],
+    `C`, `Appealing to industry or local norms is claim of normalcy. Advantageous comparison would point to something far worse.`],
+  [28, 4, `Cited for a conflict of interest, a consultant replies, "Who are you to judge? Your own firm has been fined twice." Which rationalization is this?`,
+    [`Denial of victim`, `Condemnation of condemners`, `Advantageous comparison`, `Appeal to higher loyalty`],
+    `B`, `Turning the judgment onto the judge.`],
+  [29, 4, `(Select all that apply.) A founder pads an expense report and says, "I volunteered 200 hours at the shelter this year, so this won't matter. Besides, I'm doing it for my team; they need the bonus." Which rationalizations appear?`,
+    [`Moral ledger`, `Appeal to higher loyalty`, `Denial of victim`, `Advantageous comparison`],
+    `AB`, `The volunteer hours are a moral ledger (good deeds offsetting a bad one). "Doing it for my team" is an appeal to a higher loyalty. Nobody is blamed (C) and nothing worse is pointed to (D).`],
+
+  [30, 5, `A colleague confides that her manager told her to adjust test results. She is afraid to refuse, and you are the only other person who knows. Which combination of ethical issue and lens fits best?`,
+    [`Intervention — Ethics of Care (the vulnerable colleague)`, `Repair — Utilitarianism`, `Unfair Advantage — Social Contracts`, `Showing Mercy — Disclosure`],
+    `A`, `You know about wrongdoing and must decide whether to step in, which is Intervention. A scared colleague with little voice points to the Care lens.`],
+  [31, 5, `A customer asks if an order will ship Friday, and you know there is a real chance it will slip. Telling the whole truth might lose the sale. Which response best reflects Option C for this Dissemblance dilemma?`,
+    [`Share only the good news`, `Explain the real risk and offer options, such as a partial shipment, an expedited option, or a discount, so the customer can decide`, `Let the sales team handle it`, `Say nothing and see what happens`],
+    `B`, `Option C finds a third path that keeps the truth and the relationship, and it honors agency by letting the customer decide with accurate information.`],
+  [32, 5, `(Select all that apply.) A supplier whose bid you are evaluating offers you a free luxury trip. Which Toolkit criteria counsel against accepting?`,
+    [`Disclosure — "Would I want this broadcast to the world?"`, `Justice — fairness to the other bidders`, `Integrity — "Does this reflect the kind of person I want to be?"`, `None — a gift does not affect the evaluation`],
+    `ABC`, `All three fail. The gift would not hold up if made public, it is unfair to other bidders, and it would not pass the sleep test. D is a rationalization of its own (denial of injury).`],
+  [33, 5, `In a rush, a team starts debating which ethical lens to use before agreeing on what actually happened. According to the Six Steps, what did they skip?`,
+    [`Step 1 — Gather the facts`, `Step 5 — Think creatively`, `Step 6 — Check your gut`, `Nothing; the lens should be chosen first`],
+    `A`, `Facts come first. Lenses are Step 4, so they cannot be used well until the facts, issues, and stakeholders are known.`]
+];
+
+// Short answer prompts with model answers
+var SHORT = [
+  [`Short answer 1`, `Pick a dilemma from your own life or from class. Name the ethical issue using the 13 types, analyze it with two lenses from the Ethics Toolkit, and describe an Option C.`,
+   `Sample answer: Last semester a teammate asked me to say I had reviewed a section of our project that I had not. This is Dissemblance with a bit of Loyalty. Through Deontology (agency) our professor and teammates could not make informed choices with false information, and through Virtue Ethics (disclosure) I would not want it broadcast. Option C: tell my teammate I would review the section that night and flag any issues, so the work is accurate and the friendship is intact.`],
+  [`Short answer 2`, `Which rationalization are you most likely to use in your first job, and what is one concrete habit you will use to catch it?`,
+   `Sample answer: Claim of normalcy ("everyone does it"), because it is the easiest to believe when you are new and want to fit in. Habit: when I hear myself or others say "everyone does this," I will pause and run the disclosure test (would I want this broadcast?) and talk to a mentor before acting. Good answers name a specific rationalization, explain why it fits you, and give a habit you could actually do.`]
+];
+
+(function () {
+  var LET = ["A", "B", "C", "D"];
+  var PARTNAME = { 1: "Part 1 · Six Steps to Sound Ethical Decision Making", 2: "Part 2 · Defining Ethical Issues", 3: "Part 3 · The Ethics Toolkit", 4: "Part 4 · Rationalization", 5: "Part 5 · Integrated" };
+
+  // What he said in class that bears on each study-guide question (from the lecture transcripts)
+  var CLS = {
+    1: `Sep 21: gather facts first, "jumping to a solution before the facts are known is often a first mistake." Define issues, then stakeholders, then the lenses, then a smarter "C," then check your gut.`,
+    3: `Sep 21: start with those immediately affected, then widen the circle to coworkers, communities, society, and even people not yet born. "Think generationally."`,
+    4: `Sep 21: the gut is an early warning system, "spidey sense," and sometimes "the Spirit." Emotion comes first, reason steers, the gut confirms. "Always buy time," then check with a mentor and the social-media test.`,
+    5: `Sep 21: "Don't force an A or B choice... so many times C is the smarter option." His example was Cummins, which funded a school for the kids stealing parts instead of prosecuting them or giving up.`,
+    6: `Sep 14: his questions for this one are "do they have the right to do this?" and "would others agree with me?" Example: the Wells Fargo tellers who stood up.`,
+    8: `Sep 14: Boeing 737 Max was his example of a promise where the world changed. Sep 23 (Wired for Hire): you made an offer, the situation changed, do you renege? "Sometimes it's a yes and sometimes it's a no."`,
+    9: `Sep 14: McKinsey advised both the OxyContin maker and the FDA, which resulted in billions in fines.`,
+    10: `Sep 14: his example was a Cisco intruder: internal reprimand, or turn him in as an example. No conclusion was reached.`,
+    11: `Sep 14: Boeing employees felt they had to be loyal instead of blowing the whistle. Sep 30: loyalty is an important virtue but creates pressure to conform, and "can blind you."`,
+    12: `Sep 14: HP used false identities to get directors' and journalists' phone records while hunting a board leak. He ranked Skirting the Rules as "slightly less bad" than Playing Dirty.`,
+    15: `Sep 16: the universal law test is "if I do this, is it OK for everyone else to do it? If not, it fails." Example: pinning a mistake on an intern who already quit fails it.`,
+    16: `Sep 16: Utilitarianism judges by outcomes, the greatest net utility for the greatest number. His example was Spock: "the needs of the many outweigh the needs of the few." Pitfall: who bears the negative externalities?`,
+    17: `Sep 16: virtue ethics is character and habit, the mean between excess and deficiency (courage sits between paralyzing fear and recklessness). "We are what we repeatedly do."`,
+    18: `Sep 16: care is relational and context-bound, rooted in vulnerability and interdependence. Example: a no-exceptions PTO policy versus an analyst whose father is dying. He called it virtue ethics plus "seeing people as people."`,
+    19: `Sep 16: his pitfall for utilitarianism is hiding harm to a few behind an acceptable total. His care example gave the last implementation slot to the smaller firm that would fail without it, "even if you lose" the large client.`,
+    20: `Sep 21: "the disclosure rule." Would you be fine reading about it on social media? He also quoted Jefferson on never harboring a thought you would not avow openly.`,
+    21: `Sep 16: social contracts are implicit mutual agreements between an organization and society. Example: changing commissions mid-year, where "the fight is not about the math, it's about the bargain."`,
+    22: `Sep 16: his deontology examples were "do not lie" and "do not use people as tools," including refusing a CFO's request to backdate a disclosure even though it would change only the optics.`,
+    24: `Oct 5: denial of responsibility, "probably one of the most common." Volkswagen blamed a couple of engineers, who said they were "just following orders."`,
+    25: `Oct 5: denial of injury. Shkreli's lawyers argued "no harm, no foul" because investors made money. His rebuttal: a good outcome does not erase a dishonest act.`,
+    26: `Oct 5: condemnation of the condemners, going after critics or whistleblowers. Example: Wirecard attacking journalists. "You just dig a deeper hole."`,
+    27: `Oct 5: moral ledger. Examples were Lance Armstrong's cancer foundation, and the reverse form, "I'm underpaid so fudging is fine." "Ethics is not a bank account."`,
+    28: `Oct 5: advantageous comparison. Shkreli said his drug was cheap next to $150k-a-year cancer drugs, and an investment firm said "at least we're not Madoff."`,
+    29: `Oct 5: necessity ("I had no choice") often shows up under the utilitarian lens. Euphemisms: VW's "acoustic function," "workforce optimization," "right-sizing." Intent matters but "doesn't undo the impact."`,
+    30: `Sep 14: he equated Intervention with whistleblowing (example: Susan Fowler at Uber).`,
+    31: `Sep 21: Option C in practice. In the plant-closure case it was to discourage the neighbor's purchase without revealing why and to push for an earlier announcement.`,
+    33: `Sep 21: in the customer-health-score case he argued for honesty and flagging the risk early, because the team is responsible for the client's outcome.`
+  };
+
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function isMulti(q) { return q[4].length > 1; }
+  function sameSet(a, b) { return a.slice().sort().join("") === b.slice().sort().join(""); }
+
+  function makeExam(cfg) {
+    var state = {}, revealAll = false, host = document.getElementById(cfg.list);
+    function st(n) { return state[n] || (state[n] = { sel: [], done: false, peek: false }); }
+
+    function card(q) {
+      var n = q[0], s = st(n), ans = q[4].split(""), show = s.done || s.peek || revealAll;
+      var c = el("div", "q"); c.id = cfg.key + "-q" + n;
+      var t = el("p", "qt"); t.appendChild(el("span", "qn", n + "."));
+      var text = q[2]; if (isMulti(q) && text.indexOf("Select all") < 0) text = "(Select all that apply.) " + text;
+      t.appendChild(document.createTextNode(text));
+      if (cfg.tagJudgment && q[6]) t.appendChild(el("span", "tag", "judgment"));
+      c.appendChild(t);
+      var opts = el("div", "opts");
+      q[3].forEach(function (txt, i) {
+        var L = LET[i], o = el("button", "opt"); o.type = "button"; o.dataset.n = n; o.dataset.l = L;
+        o.appendChild(el("span", "l", L + ".")); o.appendChild(el("span", null, txt));
+        var picked = s.sel.indexOf(L) > -1;
+        if (picked && !show) o.classList.add("picked");
+        o.setAttribute("aria-pressed", picked ? "true" : "false");
+        if (show) { o.disabled = true; if (ans.indexOf(L) > -1) o.classList.add("right"); else if (picked) o.classList.add("wrong"); }
+        opts.appendChild(o);
+      });
+      c.appendChild(opts);
+      if (!show) {
+        var tools = el("div", "qtools");
+        if (isMulti(q)) { var cb = el("button", "btn primary", "Check answer"); cb.type = "button"; cb.dataset.check = n; tools.appendChild(cb); }
+        var pk = el("button", "linkbtn", "Show answer"); pk.type = "button"; pk.dataset.peek = n; tools.appendChild(pk);
+        c.appendChild(tools);
+      } else {
+        var ok = s.done && sameSet(s.sel, ans);
+        var w = el("div", "why" + (s.done ? (ok ? " ok" : " no") : ""));
+        w.appendChild(el("span", "verdict", (s.done ? (ok ? "Correct" : "Not quite") + " · " : "") + "Answer: " + ans.join(", ")));
+        w.appendChild(document.createTextNode(q[5]));
+        if (cfg.cls && cfg.cls[n]) { var cl = el("span", "cls"); cl.appendChild(el("b", null, "In class · ")); cl.appendChild(document.createTextNode(cfg.cls[n])); w.appendChild(cl); }
+        c.appendChild(w);
+      }
+      return c;
+    }
+
+    function score() {
+      var a = 0, r = 0;
+      cfg.data.forEach(function (q) { var s = state[q[0]]; if (s && s.done) { a++; if (sameSet(s.sel, q[4].split(""))) r++; } });
+      document.getElementById(cfg.score).textContent = a + " answered · " + r + " correct · " + cfg.data.length + " total";
+    }
+    function redo(n) {
+      var q = cfg.data.filter(function (x) { return x[0] === n; })[0], old = document.getElementById(cfg.key + "-q" + n);
+      old.replaceWith(card(q)); score();
+    }
+    function build() {
+      host.textContent = ""; var last = 0;
+      cfg.data.forEach(function (q) {
+        if (q[1] !== last) { host.appendChild(el("div", "part", PARTNAME[q[1]])); last = q[1]; }
+        host.appendChild(card(q));
+      });
+      score();
+    }
+    host.addEventListener("click", function (e) {
+      var pk = e.target.closest("[data-peek]"); if (pk) { st(+pk.dataset.peek).peek = true; redo(+pk.dataset.peek); return; }
+      var chk = e.target.closest("[data-check]"); if (chk) { var s0 = st(+chk.dataset.check); if (!s0.sel.length) return; s0.done = true; redo(+chk.dataset.check); return; }
+      var o = e.target.closest(".opt"); if (!o || o.disabled) return;
+      var n = +o.dataset.n, L = o.dataset.l, q = cfg.data.filter(function (x) { return x[0] === n; })[0], s = st(n);
+      if (s.done) return;
+      if (isMulti(q)) { var i = s.sel.indexOf(L); if (i > -1) s.sel.splice(i, 1); else s.sel.push(L); }
+      else { s.sel = [L]; s.done = true; }
+      redo(n);
+    });
+    document.getElementById(cfg.reset).addEventListener("click", function () {
+      state = {}; revealAll = false; document.getElementById(cfg.reveal).textContent = "Show all answers"; build(); window.scrollTo(0, 0);
+    });
+    document.getElementById(cfg.reveal).addEventListener("click", function () {
+      revealAll = !revealAll; this.textContent = revealAll ? "Hide answers" : "Show all answers"; build();
+    });
+    build();
+  }
+
+  makeExam({ data: STUDY, list: "list1", score: "score1", reset: "reset1", reveal: "reveal1", key: "e1", cls: CLS, tagJudgment: true });
+  makeExam({ data: EXAM, list: "list2", score: "score2", reset: "reset2", reveal: "reveal2", key: "e2", cls: null, tagJudgment: false });
+
+  // Short answer (Practice Exam 2)
+  var shortList = document.getElementById("shortList");
+  SHORT.forEach(function (s, i) {
+    var c = el("div", "q"), p = el("p", "qt"); p.appendChild(el("span", "qn", (i + 1) + "."));
+    p.appendChild(document.createTextNode(s[1])); c.appendChild(p);
+    var ta = document.createElement("textarea"); ta.id = "short" + i; ta.setAttribute("aria-label", s[0]); c.appendChild(ta);
+    var tools = el("div", "qtools"), b = el("button", "linkbtn", "Show sample answer"); b.type = "button"; tools.appendChild(b); c.appendChild(tools);
+    var w = el("div", "why", s[2]); w.hidden = true; c.appendChild(w);
+    b.addEventListener("click", function () { w.hidden = !w.hidden; b.textContent = w.hidden ? "Show sample answer" : "Hide sample answer"; });
+    shortList.appendChild(c);
+  });
+
+  // Tabs
+  var ids = ["guide", "e1", "e2", "lect"];
+  function show(id) {
+    ids.forEach(function (x) {
+      var on = x === id;
+      document.getElementById("p-" + x).hidden = !on;
+      document.getElementById("t-" + x).setAttribute("aria-selected", on ? "true" : "false");
+    });
+    window.scrollTo(0, 0);
+  }
+  ids.forEach(function (x) { document.getElementById("t-" + x).addEventListener("click", function () { show(x); }); });
+
+  // Theme: system -> opposite -> back
+  var root = document.documentElement;
+  document.getElementById("themeBtn").addEventListener("click", function () {
+    var cur = root.getAttribute("data-theme");
+    var sysDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    root.setAttribute("data-theme", cur ? (cur === "dark" ? "light" : "dark") : (sysDark ? "light" : "dark"));
+  });
+
+  // Lectures
+  var LEC = [
+  { date: "Sep 2", file: "2026-09-02.md", topic: "Introduction", sections: [
+    ["Exam", [
+      "A midterm will test your knowledge and there will be a study guide. It will be \"pretty easy\" if you go through the guide and memorize some of the concepts.",
+      "Multiple choice, in the testing center or on Canvas (not yet decided)."]],
+    ["What he taught", [
+      "Definition of an ethical dilemma: a complex situation where you must choose between two or more conflicting moral options, none of which is completely satisfactory. If you know what is right and wrong, it is not a dilemma. \"We'll go over that definition many times.\"",
+      "Ethics is nuanced and murky, unlike accounting, where you know when you are right.",
+      "Course skills: identify when you are in a dilemma, navigate it, and help build ethical cultures.",
+      "Adam Smith: capitalism only works tethered to a moral base. Clayton Christensen: capitalism works because most people keep their promises without enforcement.",
+      "How you decide now is an indicator of how you will decide later."]],
+    ["Case", [
+      "Expense report: your manager Dana, who has helped you, asks you to code a birthday dinner as a client dinner. \"Everyone does this,\" it is under the meal cap, and finance never checks. Students gave answers from checking with HR to confronting Dana. He noted the twist that real life adds debt, kids, and pressure."]]
+  ]},
+  { date: "Sep 8", file: "2026-09-08.md", topic: "Integrity and intuition (class on Sep 9)", sections: [
+    ["Exam", ["None."]],
+    ["What he taught", [
+      "Integrity means \"complete, undivided, unbroken\" (Lee, quoting Kimball): the same person in every setting. Callister: no deception, excuses, rationalization, or coloring of the facts.",
+      "\"You have a right to do it, but that's not the right thing.\" Example: he could have sued contractors who took half-payment and ghosted, but it might not be the right thing for him.",
+      "Unethical behavior is costly: distrust adds overhead (lawyers, regulators, verification), and replacing an employee costs roughly half a year's salary.",
+      "Haidt's elephant and rider: intuition and emotion (the elephant) react first, and reason (the rider) justifies afterward, like a press secretary. It starts small. His own story: he lied so quickly and convincingly about a dish that he and his wife both believed it.",
+      "Counters: catch your inner lawyer, pause, use mentors or an honest person, and ask \"what story did I just tell myself?\"",
+      "Self-awareness is hard (\"you can't see what you can't see\"), so use coaches and mentors."]],
+    ["Cases", [
+      "Hiring panel: you are the swing vote between Maya (friendly, \"known quantity,\" oversells timelines) and Jordan (quieter, stronger record). No right answer; notice whom you already want to win.",
+      "Thomas More refused to back the king and died for it. Ted Williams refused a contract he felt he had not earned. Volleyball self-policing. Michigan clock controversy."]]
+  ]},
+  { date: "Sep 14", file: "2026-09-14.md", topic: "Defining ethical issues", sections: [
+    ["Exam", ["None mentioned. This is the lecture behind the Defining Ethical Issues handout."]],
+    ["What he taught", [
+      "A dilemma is \"should you or should you not.\" \"There's no right or wrong in ethical dilemmas, it's trying to choose.\" Example: a team kneeling at the 3-yard line instead of scoring.",
+      "Behavior in a population: about 70–80% honest, 15–20% in the \"pressure margin\" (good people pushed by circumstances), 1–5% true predators.",
+      "Power corrupts and blinds, and a personal code of ethics is the safeguard. Hire for integrity, intelligence, and energy (Buffett).",
+      "Values must be lived, not just stated: Enron's stated values were meaningless, and at Amari Global the CEO's real value was \"make more money faster.\" Test: finish the sentence \"When it costs us money or a relationship, we still do this.\"",
+      "Radical responsibility: own what happens (\"this is our company\"); do not say \"he did it.\"",
+      "Recalls: Tylenol 1982 and Toyota 2010 cost a lot but won in the end. Trust in banks and Congress has fallen sharply."]],
+    ["His example for each of the 13 issue types", [
+      "Standing Up to Power: Wells Fargo tellers eventually stood up. His questions: do they have the right to do this, and would others agree with me?",
+      "Made a Promise and World Has Changed: Boeing 737 Max. Pilots were promised minimal retraining, the world changed, and two crashes followed.",
+      "Intervention: he equated it with whistleblowing. Example: Susan Fowler at Uber.",
+      "Conflict of Interest: McKinsey advised both the OxyContin maker and the FDA.",
+      "Playing Dirty: HP used false identities to get phone records while hunting a board leak.",
+      "Skirting the Rules: \"slightly less bad than playing dirty.\" Just because you can doesn't mean you should.",
+      "Loyalty: Boeing employees felt they had to be loyal rather than blow the whistle.",
+      "Sacrificing Personal Values or Relationships: Google lost credibility with employees.",
+      "Unfair Advantage: Amazon sees what third-party sellers sell, builds its own, and ranks it first.",
+      "Repair: J&J declined to recall talc baby powder (contrast: Tylenol).",
+      "Showing Mercy: a Cisco intruder. Internal reprimand, or turn him in as an example? No conclusion.",
+      "Suspicions Without Enough Evidence and Dissemblance: the transcript is too garbled to tell what he said (Volkswagen and Theranos came up nearby)."]]
+  ]},
+  { date: "Sep 16", file: "2026-09-16.md", topic: "The five ethical frameworks", sections: [
+    ["Exam", ["\"I will be putting down some ethical framework applications on the test,\" and you have to say \"this is utilitarianism, this is deontology, that type of thing.\""]],
+    ["Utilitarianism", [
+      "Judge by outcomes: the greatest net utility for the greatest number. Spock: \"the needs of the many outweigh the needs of the few.\"",
+      "Business: lay off 12 so 200 keep their benefits; kill a profitable campaign that increases teen vaping.",
+      "Ask: what are the total costs and benefits across all stakeholders? Pitfalls: hiding rights violations behind a good total, and who bears the negative externalities."]],
+    ["Deontology", [
+      "Actions are right or wrong by universal rules and duties: do not lie, do not use people as tools, keep your duty even when the outcome would look better.",
+      "Universal law test: is it OK if everyone does it? Examples: refusing a CFO's request to backdate a disclosure; pinning a mistake on an intern who already quit fails the test.",
+      "Batman is a deontologist (his no-kill rule), not a utilitarian."]],
+    ["Social contracts", [
+      "Obligations come from implicit mutual agreements between an organization and society. Jurassic Park: Hammond promised safety and cut corners.",
+      "Business: changing commissions mid-year (\"the fight is about the bargain\"); using customer data in ways the privacy policy never described.",
+      "Pitfall: \"everyone does it\" excusing questionable norms."]],
+    ["Virtue ethics", [
+      "Character and habit, the mean between excess and deficiency (courage is between paralyzing fear and recklessness). \"We are what we repeatedly do. Excellence is not an act but a habit.\"",
+      "Business: disciplining a star closer who humiliates juniors (\"that is not who we are\"). Pitfall: good intentions without metrics, and missing systemic flaws."]],
+    ["Ethics of care", [
+      "Relational and context-bound: morality comes from vulnerability and interdependence and from responding to a specific person's needs. He called it virtue ethics plus \"seeing people as people.\"",
+      "Business: a no-exceptions PTO policy versus an analyst whose father is dying; giving the last slot to the smaller firm that would fail without it."]],
+    ["Big idea", [
+      "The frameworks overlap and blur, and the same case can be read through different ones. Spock (many) and Kirk (one) were both right in context. The skill is recognizing when to switch."]]
+  ]},
+  { date: "Sep 21", file: "2026-09-21.md", topic: "The decision steps and the gut check", sections: [
+    ["Exam", ["The study guide \"is actually helping you study what will be on the test, not like vague lists.\""]],
+    ["The steps as he taught them (he said \"eight\"; the handout has six)", [
+      "Gather facts: do not jump to a solution. Verify AI output. Your emotional elephant reacts first.",
+      "Define the issue: most dilemmas involve more than one. Talk to outsiders or a mentor.",
+      "Stakeholders: start with those affected and widen the circle, including people not yet born. \"Think generationally.\"",
+      "Consequences and obligations: weigh probability and severity and long-term over short-term. Every decision sends a signal. Transparency builds trust.",
+      "Option C: \"Don't force an A or B choice.\" Cummins funded a school instead of prosecuting kids who stole parts.",
+      "Check your gut: an early warning system, \"spidey sense,\" sometimes \"the Spirit.\" Emotion, then reason, then the gut confirms. \"Always buy time.\""]],
+    ["Lenses he mentioned", [
+      "Disclosure rule: would you be fine reading about it on social media? Jefferson: never harbor a thought you would not avow openly.",
+      "Social contract: keeping your word, even when a client asks to come back after your offer expired. Fiduciary duty is \"a social contract you take on.\"",
+      "Virtue: ask what a person of integrity in your community would do."]],
+    ["Cases", [
+      "500% drug price hike: first reaction was greed, then the facts changed (the drug was nearly discontinued, and the revenue funded a gene-therapy trial). Option C: grants, crowdfunding, or a lower price.",
+      "Plant closure: told not to disclose, and a friend is about to buy a house. Option C: discourage the purchase without revealing why, and push the company to announce earlier.",
+      "Customer health score: label the customer \"not at risk\" (lying) or follow the VP (\"just following orders\")? Option C: be honest and flag the risk early.",
+      "Hospital data: keep the promise made to patients, find another way, and change the terms for future clients.",
+      "Switching companies: trade secrets are protected, general culture is not. Give generalities, not specifics. \"Just because you can doesn't mean you should.\""]]
+  ]},
+  { date: "Sep 23", file: "2026-09-23.md", topic: "The toolkit applied (Wired for Hire)", sections: [
+    ["Exam", ["\"None of this is going to be on the test,\" said about the toolkit authors and his stories about them. The context suggests the authors, not the toolkit, but it is ambiguous."]],
+    ["What he taught", [
+      "He condensed his eight steps into six. He stressed steps 2, 4, and 5 for effort. In his retelling stakeholders came under step 2; on the handout they are Step 3, so use the handout.",
+      "He said the issues list has 14 items; the handout has 13.",
+      "\"There is never an issue with only one lens\" and it is \"never cut and dry.\" The lenses help weigh which promise or obligation wins."]],
+    ["Wired for Hire, lens by lens", [
+      "You offered a job to Reggie (marginal), then Brian (the one you really want) became available.",
+      "Utilitarian: hiring Brian probably produces more total good (the security work done right, client trust, Brian employed).",
+      "Deontology: fidelity to Reggie, who relies on the offer, against duty to clients and the public in a regulated industry. He said deontology \"is fighting itself\" here.",
+      "Social contract: keeping your word to hires versus staffing critical work with people who can do it. Virtue: your word, your team, honesty and courage.",
+      "Option C: go to the VP and argue for keeping both, even with no budget, and \"fight for it.\" Be transparent with the person you let down.",
+      "Issues named: Made a Promise and the World Has Changed, and Loyalty."]],
+    ["Flipped case", [
+      "You are Reggie and get a dream-job offer after accepting. Arguments to keep your word: social contract and reputation (other students are stakeholders). Arguments to leave: family loyalty. He agreed with the family point. Advice: use transparency so you do not throw peers under the bus."]]
+  ]},
+  { date: "Sep 30", file: "2026-09-30.md", topic: "The conformity blind spot", sections: [
+    ["Exam", ["None mentioned."]],
+    ["What he taught", [
+      "Good people hand their ethics to the crowd. Asch line experiment: about 75% went along at least once.",
+      "Groupthink: groups decide more extremely than any member would alone.",
+      "Descriptive norm (\"everyone pads the numbers\") versus injunctive norm (\"should anyone?\"). \"The popular tells you what is normal, never what is right.\"",
+      "Slippery slope: each shortcut becomes the next baseline, the dissenter is coded as disloyal, then the out-group becomes \"fair game.\"",
+      "Loyalty is a virtue that creates pressure to conform and \"can blind you.\"",
+      "His slide of rationalizations \"at work\": \"everyone else does this\" (normalcy), \"sharing the blame,\" \"competitive necessity\" (necessity). The moral side disappears and it \"becomes just a business decision.\"",
+      "Defenses: define red lines in calm, not in the moment; pause; find one dissenting ally (one ally sharply cuts conformity)."]],
+    ["Cases", [
+      "Challenger and Morton Thiokol, KPMG tax shelters, Ford Pinto, Dalkon Shield, Lance Armstrong (each step followed from \"you can't win clean\"), baseball's steroid era, Everest 1996.",
+]]
+  ]},
+  { date: "Oct 5", file: "2026-10-05.md", topic: "Rationalization", sections: [
+    ["Exam (the most important lecture for it)", [
+      "Canvas, opens the 14th, no class that day, open a couple extra days.",
+      "About 32–33 multiple choice plus \"a couple\" of short-answer questions on how you apply what you learned and your biggest takeaways.",
+      "\"These rationalization ideas will be on the test.\" A couple of statements, and \"you'll have to know which one is which.\"",
+      "The goal is for it to help you learn and be \"totally doable.\""]],
+    ["His 11 rationalizations and examples", [
+      "Denial of responsibility: Volkswagen blamed a couple of engineers; the engineers said they were just following orders. \"My boss told me to do this.\" Probably one of the most common.",
+      "Denial of injury: Shkreli's lawyers argued \"no harm, no foul\" because investors made money. A good outcome does not erase a dishonest act.",
+      "Denial of victim: Purdue's Richard Sackler called OxyContin abusers \"victimizers.\"",
+      "Condemnation of the condemners: Wirecard attacked Financial Times journalists. \"You just dig a deeper hole.\"",
+      "Appeal to higher loyalty: WorldCom's Scott Sullivan framed the fraud as keeping airline pilots flying home. Altruism is a convenient rationalization.",
+      "Moral ledger: Lance Armstrong's cancer foundation. Reverse form: \"I'm underpaid so fudging my per diem is fine.\" \"Ethics is not a bank account.\"",
+      "Defense of necessity: \"I had no choice.\" Often appears under the utilitarian lens. A VW engineer installed the defeat device under pressure from above.",
+      "Claim of normalcy: \"everybody's doing it\" (baseball, Armstrong, sweatshop labor). \"Not a pass.\"",
+      "Denial of negative intent: Facebook said the intent was only to connect people. Intent matters but \"doesn't undo the impact.\"",
+      "Advantageous comparison: Shkreli (Daraprim from $13.50 to $750) said it was cheap next to $150k-a-year cancer drugs. \"At least we're not Madoff.\"",
+      "Euphemistic language: VW's \"acoustic function\"; \"workforce optimization,\" \"right-sizing.\" Words change what people think they are doing."]],
+    ["Q-Medica activity (likely the template for the test's matching)", [
+      "CEO Mark, \"my hands are tied, the board gave strict orders\": denial of responsibility (necessity was accepted as a second).",
+      "CEO Mark, \"one-in-a-million, nobody will be hurt\": denial of injury.",
+      "Elena, \"standard industry practice\": claim of normalcy.",
+      "Sarah, \"families lose their livelihoods\": appeal to higher loyalty (he said both loyalty and necessity).",
+      "Mark, \"free equipment for rural clinics offsets one minor hit\": moral ledger.",
+      "Tom, \"minor calibration variance\": euphemistic language.",
+      "When a statement fits two labels, pick the main one but he accepts both. Necessity is \"no choice\"; higher loyalty is a noble purpose."]]
+  ]}
+];
+  var lecList = document.getElementById("lecList");
+  LEC.forEach(function (L) {
+    var d = el("details", "lec");
+    var s = el("summary", null, L.date); s.appendChild(el("span", null, L.topic)); d.appendChild(s);
+    L.sections.forEach(function (sec) {
+      d.appendChild(el("h4", null, sec[0]));
+      var ul = el("ul");
+      sec[1].forEach(function (t) { ul.appendChild(el("li", null, t)); });
+      d.appendChild(ul);
+    });
+    var src = el("div", "src"); var a = el("a", null, "Open the full transcript and summary"); a.href = "https://github.com/DrFunDip72/PSE-390/blob/main/notes/2026/" + L.file; src.appendChild(a); d.appendChild(src);
+    lecList.appendChild(d);
+  });
+})();
+</script>
+</body>
+</html>

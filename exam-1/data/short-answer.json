@@ -1,0 +1,15 @@
+{
+  "title": "Short-answer practice (Practice Exam 2)",
+  "items": [
+    {
+      "label": "Short answer 1",
+      "prompt": "Pick a dilemma from your own life or from class. Name the ethical issue using the 13 types, analyze it with two lenses from the Ethics Toolkit, and describe an Option C.",
+      "sampleAnswer": "Sample answer: Last semester a teammate asked me to say I had reviewed a section of our project that I had not. This is Dissemblance with a bit of Loyalty. Through Deontology (agency) our professor and teammates could not make informed choices with false information, and through Virtue Ethics (disclosure) I would not want it broadcast. Option C: tell my teammate I would review the section that night and flag any issues, so the work is accurate and the friendship is intact."
+    },
+    {
+      "label": "Short answer 2",
+      "prompt": "Which rationalization are you most likely to use in your first job, and what is one concrete habit you will use to catch it?",
+      "sampleAnswer": "Sample answer: Claim of normalcy (\"everyone does it\"), because it is the easiest to believe when you are new and want to fit in. Habit: when I hear myself or others say \"everyone does this,\" I will pause and run the disclosure test (would I want this broadcast?) and talk to a mentor before acting. Good answers name a specific rationalization, explain why it fits you, and give a habit you could actually do."
+    }
+  ]
+}
